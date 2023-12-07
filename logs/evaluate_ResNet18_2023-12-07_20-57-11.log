@@ -1,0 +1,19 @@
+2023-12-07 20:57:11,577 - ResNet18_evaluate - INFO - Start evaluation ...
+2023-12-07 20:57:19,724 - ResNet18_evaluate - INFO - Epoch: 0
+test_loss: 0.8148517364501953
+test_accuracy: 0.8189
+test_precision: 0.8187872111478511
+test_recall: 0.8188
+test_f1: 0.8182502021466779
+dog: {'total': 1000, 'correct': 714, 'incorrect': 266, 'accuracy': 0.714}
+truck: {'total': 1000, 'correct': 872, 'incorrect': 135, 'accuracy': 0.872}
+cat: {'total': 1000, 'correct': 639, 'incorrect': 331, 'accuracy': 0.639}
+bird: {'total': 1000, 'correct': 749, 'incorrect': 158, 'accuracy': 0.749}
+deer: {'total': 1000, 'correct': 850, 'incorrect': 272, 'accuracy': 0.85}
+ship: {'total': 1000, 'correct': 890, 'incorrect': 94, 'accuracy': 0.89}
+horse: {'total': 1000, 'correct': 860, 'incorrect': 135, 'accuracy': 0.86}
+airplane: {'total': 1000, 'correct': 854, 'incorrect': 198, 'accuracy': 0.854}
+automobile: {'total': 1000, 'correct': 888, 'incorrect': 106, 'accuracy': 0.888}
+frog: {'total': 1000, 'correct': 868, 'incorrect': 121, 'accuracy': 0.868}
+overall_accuracy: 0.8184
+

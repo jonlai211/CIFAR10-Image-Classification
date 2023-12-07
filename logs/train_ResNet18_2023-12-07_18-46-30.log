@@ -1,0 +1,1847 @@
+2023-12-07 18:46:30,620 - ResNet18_train - INFO - Start training ...
+2023-12-07 18:46:54,748 - ResNet18_train - INFO - batch_size: 32
+valid_size: 0.2
+number_of_workers: 4
+n_epochs: 150
+train_on_gpu: True
+optimizer: SGD (
+Parameter Group 0
+    dampening: 0
+    differentiable: False
+    foreach: None
+    lr: 0.0001
+    maximize: False
+    momentum: 0.9
+    nesterov: False
+    weight_decay: 0
+)
+criterion: CrossEntropyLoss()
+
+2023-12-07 18:47:42,605 - ResNet18_train - INFO - Epoch: 1
+train_loss: 1.262358554983139
+valid_loss: 1.307858550453186
+train_accuracy: 0.559575
+valid_accuracy: 0.5502
+train_precision: 0.570041177406988
+valid_precision: 0.5622545510821807
+train_recall: 0.558975
+valid_recall: 0.5473
+train_f1: 0.5607617512999264
+valid_f1: 0.5506126095323791
+
+2023-12-07 18:47:42,606 - ResNet18_train - INFO - Validation loss decreased (1.307859 --> 1.307859).  Saving model ...
+2023-12-07 18:48:33,472 - ResNet18_train - INFO - Epoch: 2
+train_loss: 1.0278016079425811
+valid_loss: 1.0750329672813415
+train_accuracy: 0.64345
+valid_accuracy: 0.628
+train_precision: 0.6439509460760874
+valid_precision: 0.63258367187835
+train_recall: 0.64145
+valid_recall: 0.629
+train_f1: 0.6413810012533336
+valid_f1: 0.629729793749633
+
+2023-12-07 18:48:33,473 - ResNet18_train - INFO - Validation loss decreased (1.075033 --> 1.075033).  Saving model ...
+2023-12-07 18:49:22,685 - ResNet18_train - INFO - Epoch: 3
+train_loss: 0.9148278661727905
+valid_loss: 0.9783750594139099
+train_accuracy: 0.6833
+valid_accuracy: 0.661
+train_precision: 0.6843773383954838
+valid_precision: 0.6669921180992713
+train_recall: 0.680725
+valid_recall: 0.6612
+train_f1: 0.6802261232841293
+valid_f1: 0.6615406099322582
+
+2023-12-07 18:49:22,685 - ResNet18_train - INFO - Validation loss decreased (0.978375 --> 0.978375).  Saving model ...
+2023-12-07 18:50:10,354 - ResNet18_train - INFO - Epoch: 4
+train_loss: 0.8762010659217835
+valid_loss: 0.9394836044311523
+train_accuracy: 0.70175
+valid_accuracy: 0.6844
+train_precision: 0.7070865562669948
+valid_precision: 0.6866996058725309
+train_recall: 0.7039
+valid_recall: 0.6817
+train_f1: 0.7036881570756501
+valid_f1: 0.6822896462716346
+
+2023-12-07 18:50:10,354 - ResNet18_train - INFO - Validation loss decreased (0.939484 --> 0.939484).  Saving model ...
+2023-12-07 18:50:56,001 - ResNet18_train - INFO - Epoch: 5
+train_loss: 0.7842529767990112
+valid_loss: 0.8516708322525024
+train_accuracy: 0.7275
+valid_accuracy: 0.7029
+train_precision: 0.7273775437973649
+valid_precision: 0.7052149355056686
+train_recall: 0.7274
+valid_recall: 0.7051
+train_f1: 0.7265226843804315
+valid_f1: 0.7043364787092089
+
+2023-12-07 18:50:56,002 - ResNet18_train - INFO - Validation loss decreased (0.851671 --> 0.851671).  Saving model ...
+2023-12-07 18:51:41,637 - ResNet18_train - INFO - Epoch: 6
+train_loss: 0.754405786561966
+valid_loss: 0.8290106209754944
+train_accuracy: 0.74205
+valid_accuracy: 0.7087
+train_precision: 0.7440021759007923
+valid_precision: 0.7227224701369771
+train_recall: 0.740525
+valid_recall: 0.7163
+train_f1: 0.7403892532488134
+valid_f1: 0.7170825255633242
+
+2023-12-07 18:51:41,637 - ResNet18_train - INFO - Validation loss decreased (0.829011 --> 0.829011).  Saving model ...
+2023-12-07 18:52:34,944 - ResNet18_train - INFO - Epoch: 7
+train_loss: 0.702792994594574
+valid_loss: 0.7863466471672058
+train_accuracy: 0.758075
+valid_accuracy: 0.7267
+train_precision: 0.7560115123780925
+valid_precision: 0.7284457092288434
+train_recall: 0.755225
+valid_recall: 0.7269
+train_f1: 0.75454484650305
+valid_f1: 0.7265459003417281
+
+2023-12-07 18:52:34,944 - ResNet18_train - INFO - Validation loss decreased (0.786347 --> 0.786347).  Saving model ...
+2023-12-07 18:53:28,563 - ResNet18_train - INFO - Epoch: 8
+train_loss: 0.6677166445493699
+valid_loss: 0.7579909846305847
+train_accuracy: 0.769475
+valid_accuracy: 0.737
+train_precision: 0.770267726468783
+valid_precision: 0.7414207733484104
+train_recall: 0.769875
+valid_recall: 0.7397
+train_f1: 0.7693437952284117
+valid_f1: 0.7398210292973989
+
+2023-12-07 18:53:28,563 - ResNet18_train - INFO - Validation loss decreased (0.757991 --> 0.757991).  Saving model ...
+2023-12-07 18:54:21,265 - ResNet18_train - INFO - Epoch: 9
+train_loss: 0.6460127652049065
+valid_loss: 0.7421703145980835
+train_accuracy: 0.777675
+valid_accuracy: 0.7412
+train_precision: 0.777498762166197
+valid_precision: 0.740573687525059
+train_recall: 0.7763
+valid_recall: 0.7384
+train_f1: 0.7754973522874034
+valid_f1: 0.7380895542236728
+
+2023-12-07 18:54:21,265 - ResNet18_train - INFO - Validation loss decreased (0.742170 --> 0.742170).  Saving model ...
+2023-12-07 18:55:15,417 - ResNet18_train - INFO - Epoch: 10
+train_loss: 0.6258615681886673
+valid_loss: 0.7161791027545928
+train_accuracy: 0.78345
+valid_accuracy: 0.7504
+train_precision: 0.7847923045514558
+valid_precision: 0.750555208455895
+train_recall: 0.783575
+valid_recall: 0.7488
+train_f1: 0.7832447003315739
+valid_f1: 0.7486647949244392
+
+2023-12-07 18:55:15,417 - ResNet18_train - INFO - Validation loss decreased (0.716179 --> 0.716179).  Saving model ...
+2023-12-07 18:56:05,067 - ResNet18_train - INFO - Epoch: 11
+train_loss: 0.5977701367497444
+valid_loss: 0.7046956987857819
+train_accuracy: 0.790775
+valid_accuracy: 0.7525
+train_precision: 0.7925754008969416
+valid_precision: 0.7537099354893788
+train_recall: 0.792925
+valid_recall: 0.7535
+train_f1: 0.7918954318809662
+valid_f1: 0.752970354994634
+
+2023-12-07 18:56:05,067 - ResNet18_train - INFO - Validation loss decreased (0.704696 --> 0.704696).  Saving model ...
+2023-12-07 18:56:57,035 - ResNet18_train - INFO - Epoch: 12
+train_loss: 0.589654671394825
+valid_loss: 0.6996131587982177
+train_accuracy: 0.796125
+valid_accuracy: 0.7556
+train_precision: 0.7966875672549506
+valid_precision: 0.7522493018372931
+train_recall: 0.798575
+valid_recall: 0.7545
+train_f1: 0.7969888166146955
+valid_f1: 0.7529072388885879
+
+2023-12-07 18:56:57,036 - ResNet18_train - INFO - Validation loss decreased (0.699613 --> 0.699613).  Saving model ...
+2023-12-07 18:57:50,993 - ResNet18_train - INFO - Epoch: 13
+train_loss: 0.5608464305520058
+valid_loss: 0.6700678783416748
+train_accuracy: 0.807525
+valid_accuracy: 0.7711
+train_precision: 0.808425326108317
+valid_precision: 0.7682355296585691
+train_recall: 0.80845
+valid_recall: 0.7666
+train_f1: 0.808171005748933
+valid_f1: 0.7670513459440682
+
+2023-12-07 18:57:50,993 - ResNet18_train - INFO - Validation loss decreased (0.670068 --> 0.670068).  Saving model ...
+2023-12-07 18:58:40,311 - ResNet18_train - INFO - Epoch: 14
+train_loss: 0.5435868726015091
+valid_loss: 0.6587553118467331
+train_accuracy: 0.81285
+valid_accuracy: 0.7656
+train_precision: 0.8105979419166314
+valid_precision: 0.7695154999748953
+train_recall: 0.8093
+valid_recall: 0.7662
+train_f1: 0.8092707574946174
+valid_f1: 0.7670911074266731
+
+2023-12-07 18:58:40,311 - ResNet18_train - INFO - Validation loss decreased (0.658755 --> 0.658755).  Saving model ...
+2023-12-07 18:59:28,037 - ResNet18_train - INFO - Epoch: 15
+train_loss: 0.5220716223239898
+valid_loss: 0.6501609143257141
+train_accuracy: 0.819825
+valid_accuracy: 0.7776
+train_precision: 0.8190300826883596
+valid_precision: 0.7757517394125231
+train_recall: 0.819875
+valid_recall: 0.7749
+train_f1: 0.819337365475867
+valid_f1: 0.7750785997283132
+
+2023-12-07 18:59:28,037 - ResNet18_train - INFO - Validation loss decreased (0.650161 --> 0.650161).  Saving model ...
+2023-12-07 19:00:15,260 - ResNet18_train - INFO - Epoch: 16
+train_loss: 0.5120480900526047
+valid_loss: 0.6510967044830323
+train_accuracy: 0.8207
+valid_accuracy: 0.7752
+train_precision: 0.8242895354300652
+valid_precision: 0.7761912883062243
+train_recall: 0.8223
+valid_recall: 0.7733
+train_f1: 0.8217483710650205
+valid_f1: 0.7730497942166311
+
+2023-12-07 19:01:03,725 - ResNet18_train - INFO - Epoch: 17
+train_loss: 0.4966415367007255
+valid_loss: 0.642503098154068
+train_accuracy: 0.825125
+valid_accuracy: 0.7783
+train_precision: 0.8279255233656808
+valid_precision: 0.7775359464316358
+train_recall: 0.827375
+valid_recall: 0.7757
+train_f1: 0.8269465353669895
+valid_f1: 0.7757960328798152
+
+2023-12-07 19:01:03,726 - ResNet18_train - INFO - Validation loss decreased (0.642503 --> 0.642503).  Saving model ...
+2023-12-07 19:01:51,764 - ResNet18_train - INFO - Epoch: 18
+train_loss: 0.4919305069208145
+valid_loss: 0.6453465498447418
+train_accuracy: 0.831475
+valid_accuracy: 0.7761
+train_precision: 0.8363493269495644
+valid_precision: 0.7847182945563518
+train_recall: 0.828825
+valid_recall: 0.775
+train_f1: 0.8298862121192635
+valid_f1: 0.7769963120268667
+
+2023-12-07 19:02:38,989 - ResNet18_train - INFO - Epoch: 19
+train_loss: 0.48412917984724047
+valid_loss: 0.6420670443058014
+train_accuracy: 0.8329
+valid_accuracy: 0.7765
+train_precision: 0.8330446694934684
+valid_precision: 0.7789401081080497
+train_recall: 0.832825
+valid_recall: 0.7768
+train_f1: 0.8323924662244488
+valid_f1: 0.7769570221321789
+
+2023-12-07 19:02:38,989 - ResNet18_train - INFO - Validation loss decreased (0.642067 --> 0.642067).  Saving model ...
+2023-12-07 19:03:33,661 - ResNet18_train - INFO - Epoch: 20
+train_loss: 0.45566993242502213
+valid_loss: 0.6190200763702393
+train_accuracy: 0.84135
+valid_accuracy: 0.783
+train_precision: 0.8436248808280572
+valid_precision: 0.7949771640309024
+train_recall: 0.841
+valid_recall: 0.7897
+train_f1: 0.8414019254819551
+valid_f1: 0.7910901126336849
+
+2023-12-07 19:03:33,661 - ResNet18_train - INFO - Validation loss decreased (0.619020 --> 0.619020).  Saving model ...
+2023-12-07 19:04:28,135 - ResNet18_train - INFO - Epoch: 21
+train_loss: 0.439838179731369
+valid_loss: 0.6166160496473312
+train_accuracy: 0.85095
+valid_accuracy: 0.788
+train_precision: 0.8490055402839533
+valid_precision: 0.7927129447043868
+train_recall: 0.848975
+valid_recall: 0.792
+train_f1: 0.8487333096553547
+valid_f1: 0.7920675619226547
+
+2023-12-07 19:04:28,135 - ResNet18_train - INFO - Validation loss decreased (0.616616 --> 0.616616).  Saving model ...
+2023-12-07 19:05:20,977 - ResNet18_train - INFO - Epoch: 22
+train_loss: 0.43046128538846967
+valid_loss: 0.6002906280994416
+train_accuracy: 0.852575
+valid_accuracy: 0.7934
+train_precision: 0.854371680549735
+valid_precision: 0.7885715755780536
+train_recall: 0.85395
+valid_recall: 0.7865
+train_f1: 0.8537207068110929
+valid_f1: 0.7868131705784795
+
+2023-12-07 19:05:20,977 - ResNet18_train - INFO - Validation loss decreased (0.600291 --> 0.600291).  Saving model ...
+2023-12-07 19:06:16,161 - ResNet18_train - INFO - Epoch: 23
+train_loss: 0.4230898083329201
+valid_loss: 0.6146839007377625
+train_accuracy: 0.8548
+valid_accuracy: 0.789
+train_precision: 0.8546710203559548
+valid_precision: 0.7881482174669643
+train_recall: 0.85445
+valid_recall: 0.7866
+train_f1: 0.8542907848033646
+valid_f1: 0.787016518559261
+
+2023-12-07 19:07:06,285 - ResNet18_train - INFO - Epoch: 24
+train_loss: 0.4096542837262154
+valid_loss: 0.6063372160434722
+train_accuracy: 0.858925
+valid_accuracy: 0.7906
+train_precision: 0.8596701797507746
+valid_precision: 0.7946627812647623
+train_recall: 0.8598
+valid_recall: 0.7938
+train_f1: 0.8595253390088555
+valid_f1: 0.7940863231568375
+
+2023-12-07 19:07:58,527 - ResNet18_train - INFO - Epoch: 25
+train_loss: 0.394016766166687
+valid_loss: 0.5938026882171631
+train_accuracy: 0.864175
+valid_accuracy: 0.7891
+train_precision: 0.8635971778010327
+valid_precision: 0.7966768801167614
+train_recall: 0.864225
+valid_recall: 0.7968
+train_f1: 0.8637137432053629
+valid_f1: 0.7966803928638857
+
+2023-12-07 19:07:58,527 - ResNet18_train - INFO - Validation loss decreased (0.593803 --> 0.593803).  Saving model ...
+2023-12-07 19:08:47,988 - ResNet18_train - INFO - Epoch: 26
+train_loss: 0.3836604463517666
+valid_loss: 0.5868213552951813
+train_accuracy: 0.867675
+valid_accuracy: 0.7949
+train_precision: 0.8667273056257232
+valid_precision: 0.7990812501631546
+train_recall: 0.866475
+valid_recall: 0.7976
+train_f1: 0.8659854975634864
+valid_f1: 0.7975628594667626
+
+2023-12-07 19:08:47,988 - ResNet18_train - INFO - Validation loss decreased (0.586821 --> 0.586821).  Saving model ...
+2023-12-07 19:09:35,366 - ResNet18_train - INFO - Epoch: 27
+train_loss: 0.38348213866353037
+valid_loss: 0.5987919560432434
+train_accuracy: 0.8707
+valid_accuracy: 0.7971
+train_precision: 0.8729400018291604
+valid_precision: 0.798681931077995
+train_recall: 0.87165
+valid_recall: 0.7956
+train_f1: 0.8718597404570433
+valid_f1: 0.7965099735314981
+
+2023-12-07 19:10:22,955 - ResNet18_train - INFO - Epoch: 28
+train_loss: 0.3708895979464054
+valid_loss: 0.5923269434452056
+train_accuracy: 0.875925
+valid_accuracy: 0.7987
+train_precision: 0.8766661927987894
+valid_precision: 0.7997623416763799
+train_recall: 0.876975
+valid_recall: 0.7997
+train_f1: 0.8763615515662226
+valid_f1: 0.7991987615370222
+
+2023-12-07 19:11:10,497 - ResNet18_train - INFO - Epoch: 29
+train_loss: 0.36454881743192674
+valid_loss: 0.5973926439523697
+train_accuracy: 0.87425
+valid_accuracy: 0.7979
+train_precision: 0.8780933500360095
+valid_precision: 0.8002180533395592
+train_recall: 0.87675
+valid_recall: 0.7959
+train_f1: 0.8769599269438433
+valid_f1: 0.7971129533427788
+
+2023-12-07 19:11:58,816 - ResNet18_train - INFO - Epoch: 30
+train_loss: 0.36659278115034105
+valid_loss: 0.5939792745113373
+train_accuracy: 0.875875
+valid_accuracy: 0.795
+train_precision: 0.8751461124643143
+valid_precision: 0.7984287342024349
+train_recall: 0.875375
+valid_recall: 0.798
+train_f1: 0.8747745474166735
+valid_f1: 0.797576980103344
+
+2023-12-07 19:12:45,641 - ResNet18_train - INFO - Epoch: 31
+train_loss: 0.34053552762269973
+valid_loss: 0.591024267578125
+train_accuracy: 0.882375
+valid_accuracy: 0.7972
+train_precision: 0.8815762770713896
+valid_precision: 0.8007659180826545
+train_recall: 0.881875
+valid_recall: 0.8
+train_f1: 0.8812963194253709
+valid_f1: 0.7997361816458846
+
+2023-12-07 19:13:32,305 - ResNet18_train - INFO - Epoch: 32
+train_loss: 0.3330439082980156
+valid_loss: 0.5838471965312958
+train_accuracy: 0.887125
+valid_accuracy: 0.798
+train_precision: 0.8877645333583567
+valid_precision: 0.8045960251918324
+train_recall: 0.8874
+valid_recall: 0.8026
+train_f1: 0.8873321425821954
+valid_f1: 0.8031019038901923
+
+2023-12-07 19:13:32,306 - ResNet18_train - INFO - Validation loss decreased (0.583847 --> 0.583847).  Saving model ...
+2023-12-07 19:14:18,910 - ResNet18_train - INFO - Epoch: 33
+train_loss: 0.3267930269628763
+valid_loss: 0.5934052837133408
+train_accuracy: 0.88665
+valid_accuracy: 0.798
+train_precision: 0.8885315742611674
+valid_precision: 0.7995951084568066
+train_recall: 0.888425
+valid_recall: 0.7984
+train_f1: 0.888150265405185
+valid_f1: 0.7984999691954218
+
+2023-12-07 19:15:08,232 - ResNet18_train - INFO - Epoch: 34
+train_loss: 0.31481156204938887
+valid_loss: 0.576807466840744
+train_accuracy: 0.890325
+valid_accuracy: 0.7977
+train_precision: 0.8915257599566405
+valid_precision: 0.8022319245892489
+train_recall: 0.891225
+valid_recall: 0.8014
+train_f1: 0.8909249345051494
+valid_f1: 0.8012601373024065
+
+2023-12-07 19:15:08,232 - ResNet18_train - INFO - Validation loss decreased (0.576807 --> 0.576807).  Saving model ...
+2023-12-07 19:15:56,294 - ResNet18_train - INFO - Epoch: 35
+train_loss: 0.30738660125136374
+valid_loss: 0.5734811384677887
+train_accuracy: 0.8975
+valid_accuracy: 0.8019
+train_precision: 0.8984905216665374
+valid_precision: 0.8088023959772035
+train_recall: 0.89795
+valid_recall: 0.8061
+train_f1: 0.8980643171775659
+valid_f1: 0.8069507822071215
+
+2023-12-07 19:15:56,295 - ResNet18_train - INFO - Validation loss decreased (0.573481 --> 0.573481).  Saving model ...
+2023-12-07 19:16:44,709 - ResNet18_train - INFO - Epoch: 36
+train_loss: 0.2985850105583668
+valid_loss: 0.5699425924777984
+train_accuracy: 0.899975
+valid_accuracy: 0.805
+train_precision: 0.9002479413046481
+valid_precision: 0.80763695984361
+train_recall: 0.899075
+valid_recall: 0.8039
+train_f1: 0.8993830281788673
+valid_f1: 0.8053362951637255
+
+2023-12-07 19:16:44,709 - ResNet18_train - INFO - Validation loss decreased (0.569943 --> 0.569943).  Saving model ...
+2023-12-07 19:17:31,942 - ResNet18_train - INFO - Epoch: 37
+train_loss: 0.3044413899600506
+valid_loss: 0.5902665328979492
+train_accuracy: 0.897925
+valid_accuracy: 0.7979
+train_precision: 0.8975984192631017
+valid_precision: 0.8045170788062183
+train_recall: 0.89585
+valid_recall: 0.8006
+train_f1: 0.8958887368143663
+valid_f1: 0.8017717371723738
+
+2023-12-07 19:18:21,342 - ResNet18_train - INFO - Epoch: 38
+train_loss: 0.28946401827633383
+valid_loss: 0.5710320137500763
+train_accuracy: 0.902225
+valid_accuracy: 0.8069
+train_precision: 0.9048767111468445
+valid_precision: 0.807038158704587
+train_recall: 0.903975
+valid_recall: 0.8045
+train_f1: 0.9040003828122439
+valid_f1: 0.8051022479789911
+
+2023-12-07 19:19:13,279 - ResNet18_train - INFO - Epoch: 39
+train_loss: 0.28047022291719914
+valid_loss: 0.5796180402755737
+train_accuracy: 0.9064
+valid_accuracy: 0.8036
+train_precision: 0.9048701022851922
+valid_precision: 0.8079120181679881
+train_recall: 0.904625
+valid_recall: 0.8057
+train_f1: 0.9046384909287699
+valid_f1: 0.8063706172913576
+
+2023-12-07 19:20:04,697 - ResNet18_train - INFO - Epoch: 40
+train_loss: 0.2698584951609373
+valid_loss: 0.5693597212791442
+train_accuracy: 0.910375
+valid_accuracy: 0.8061
+train_precision: 0.9085453861804598
+valid_precision: 0.8049496501957448
+train_recall: 0.908875
+valid_recall: 0.8059
+train_f1: 0.9082920230404521
+valid_f1: 0.8050894511069756
+
+2023-12-07 19:20:04,697 - ResNet18_train - INFO - Validation loss decreased (0.569360 --> 0.569360).  Saving model ...
+2023-12-07 19:20:59,440 - ResNet18_train - INFO - Epoch: 41
+train_loss: 0.2693710516601801
+valid_loss: 0.5806147953033447
+train_accuracy: 0.911025
+valid_accuracy: 0.8042
+train_precision: 0.9097320552985068
+valid_precision: 0.8158619849087674
+train_recall: 0.908725
+valid_recall: 0.8119
+train_f1: 0.9089168196042783
+valid_f1: 0.8130197745565161
+
+2023-12-07 19:21:52,079 - ResNet18_train - INFO - Epoch: 42
+train_loss: 0.26174526471197607
+valid_loss: 0.5694621114730835
+train_accuracy: 0.91125
+valid_accuracy: 0.8092
+train_precision: 0.9114309259610507
+valid_precision: 0.8100762844938844
+train_recall: 0.911075
+valid_recall: 0.8079
+train_f1: 0.9111132811062364
+valid_f1: 0.808724159188397
+
+2023-12-07 19:22:41,930 - ResNet18_train - INFO - Epoch: 43
+train_loss: 0.2533149595469236
+valid_loss: 0.5646976204156876
+train_accuracy: 0.919625
+valid_accuracy: 0.8062
+train_precision: 0.9164636236551081
+valid_precision: 0.8076388267829325
+train_recall: 0.91625
+valid_recall: 0.8065
+train_f1: 0.9160720018000953
+valid_f1: 0.8066409002853481
+
+2023-12-07 19:22:41,931 - ResNet18_train - INFO - Validation loss decreased (0.564698 --> 0.564698).  Saving model ...
+2023-12-07 19:23:30,641 - ResNet18_train - INFO - Epoch: 44
+train_loss: 0.2519609996587038
+valid_loss: 0.5946538046360016
+train_accuracy: 0.9161
+valid_accuracy: 0.8066
+train_precision: 0.9170140827364303
+valid_precision: 0.8082472991096085
+train_recall: 0.91635
+valid_recall: 0.8052
+train_f1: 0.9163740503853677
+valid_f1: 0.8059048974535392
+
+2023-12-07 19:24:22,753 - ResNet18_train - INFO - Epoch: 45
+train_loss: 0.23484536549448967
+valid_loss: 0.5764273255109787
+train_accuracy: 0.922475
+valid_accuracy: 0.8145
+train_precision: 0.92489859328117
+valid_precision: 0.8137733910044399
+train_recall: 0.92465
+valid_recall: 0.8115
+train_f1: 0.9245987450319677
+valid_f1: 0.8120541150081162
+
+2023-12-07 19:25:14,056 - ResNet18_train - INFO - Epoch: 46
+train_loss: 0.22954732889086008
+valid_loss: 0.5800750645399093
+train_accuracy: 0.92295
+valid_accuracy: 0.8087
+train_precision: 0.9202770493785658
+valid_precision: 0.8133652838493785
+train_recall: 0.919975
+valid_recall: 0.8112
+train_f1: 0.9199563710536389
+valid_f1: 0.8116520532499231
+
+2023-12-07 19:26:07,204 - ResNet18_train - INFO - Epoch: 47
+train_loss: 0.2201065536737442
+valid_loss: 0.5856906093597413
+train_accuracy: 0.92585
+valid_accuracy: 0.8099
+train_precision: 0.926210837246932
+valid_precision: 0.8077953476865122
+train_recall: 0.926175
+valid_recall: 0.8064
+train_f1: 0.9261034417285741
+valid_f1: 0.8067600190353769
+
+2023-12-07 19:26:57,737 - ResNet18_train - INFO - Epoch: 48
+train_loss: 0.21584188552498818
+valid_loss: 0.5858919128417969
+train_accuracy: 0.930075
+valid_accuracy: 0.8109
+train_precision: 0.929009204073799
+valid_precision: 0.8141518648721323
+train_recall: 0.928675
+valid_recall: 0.8113
+train_f1: 0.9287746562805447
+valid_f1: 0.81228784759712
+
+2023-12-07 19:27:50,872 - ResNet18_train - INFO - Epoch: 49
+train_loss: 0.220562141174078
+valid_loss: 0.585832697057724
+train_accuracy: 0.9286
+valid_accuracy: 0.8087
+train_precision: 0.9274237355633379
+valid_precision: 0.8104764728149282
+train_recall: 0.927375
+valid_recall: 0.8099
+train_f1: 0.9272405172462315
+valid_f1: 0.8097727257766358
+
+2023-12-07 19:28:44,177 - ResNet18_train - INFO - Epoch: 50
+train_loss: 0.20735942080020905
+valid_loss: 0.572477720451355
+train_accuracy: 0.9327
+valid_accuracy: 0.8113
+train_precision: 0.932777762836898
+valid_precision: 0.8105020808346866
+train_recall: 0.9328
+valid_recall: 0.8099
+train_f1: 0.9326830488396215
+valid_f1: 0.8100649832497706
+
+2023-12-07 19:29:38,299 - ResNet18_train - INFO - Epoch: 51
+train_loss: 0.19524593795537948
+valid_loss: 0.5804716810941696
+train_accuracy: 0.935125
+valid_accuracy: 0.8131
+train_precision: 0.9367349344675505
+valid_precision: 0.8154480201739146
+train_recall: 0.9366
+valid_recall: 0.8133
+train_f1: 0.936618659243738
+valid_f1: 0.813981504960012
+
+2023-12-07 19:30:31,841 - ResNet18_train - INFO - Epoch: 52
+train_loss: 0.1927559297144413
+valid_loss: 0.5848235624074936
+train_accuracy: 0.937325
+valid_accuracy: 0.806
+train_precision: 0.937228683921231
+valid_precision: 0.8165642924176616
+train_recall: 0.93715
+valid_recall: 0.815
+train_f1: 0.9371069314742475
+valid_f1: 0.8155553669079796
+
+2023-12-07 19:31:25,574 - ResNet18_train - INFO - Epoch: 53
+train_loss: 0.18430990993380547
+valid_loss: 0.5795776687145233
+train_accuracy: 0.940525
+valid_accuracy: 0.8082
+train_precision: 0.9408385741333355
+valid_precision: 0.8169138979934784
+train_recall: 0.94055
+valid_recall: 0.8146
+train_f1: 0.940639533193455
+valid_f1: 0.8154182458510216
+
+2023-12-07 19:32:18,618 - ResNet18_train - INFO - Epoch: 54
+train_loss: 0.18688994905203582
+valid_loss: 0.5943195121288299
+train_accuracy: 0.9393
+valid_accuracy: 0.8116
+train_precision: 0.9400210405017124
+valid_precision: 0.8106191205755889
+train_recall: 0.9399
+valid_recall: 0.8095
+train_f1: 0.9397354841419233
+valid_f1: 0.8095966430873283
+
+2023-12-07 19:33:11,435 - ResNet18_train - INFO - Epoch: 55
+train_loss: 0.18806066823899745
+valid_loss: 0.5889603285312652
+train_accuracy: 0.94175
+valid_accuracy: 0.8128
+train_precision: 0.9389139343142319
+valid_precision: 0.812482407522311
+train_recall: 0.938175
+valid_recall: 0.8089
+train_f1: 0.938158122294196
+valid_f1: 0.8096687186854022
+
+2023-12-07 19:34:05,079 - ResNet18_train - INFO - Epoch: 56
+train_loss: 0.17104590412676335
+valid_loss: 0.5807437659978867
+train_accuracy: 0.945425
+valid_accuracy: 0.8132
+train_precision: 0.9461408194760518
+valid_precision: 0.8132557524782305
+train_recall: 0.946075
+valid_recall: 0.8121
+train_f1: 0.9460186501868
+valid_f1: 0.8123907436034531
+
+2023-12-07 19:34:58,807 - ResNet18_train - INFO - Epoch: 57
+train_loss: 0.1685633292362094
+valid_loss: 0.602936435008049
+train_accuracy: 0.94625
+valid_accuracy: 0.8152
+train_precision: 0.9457415957577212
+valid_precision: 0.8160793971423127
+train_recall: 0.94545
+valid_recall: 0.8136
+train_f1: 0.9455364849322241
+valid_f1: 0.8145601322002758
+
+2023-12-07 19:35:51,620 - ResNet18_train - INFO - Epoch: 58
+train_loss: 0.16475583404749633
+valid_loss: 0.5929495663166046
+train_accuracy: 0.94965
+valid_accuracy: 0.8174
+train_precision: 0.9476947089009116
+valid_precision: 0.816079908700929
+train_recall: 0.94745
+valid_recall: 0.8146
+train_f1: 0.947453189336061
+valid_f1: 0.8150347910854716
+
+2023-12-07 19:36:45,325 - ResNet18_train - INFO - Epoch: 59
+train_loss: 0.15316660056710243
+valid_loss: 0.5904712600231171
+train_accuracy: 0.951325
+valid_accuracy: 0.8197
+train_precision: 0.9526180663128325
+valid_precision: 0.8148991429327207
+train_recall: 0.9526
+valid_recall: 0.8131
+train_f1: 0.9525357762962929
+valid_f1: 0.8135974463426648
+
+2023-12-07 19:37:37,850 - ResNet18_train - INFO - Epoch: 60
+train_loss: 0.15429959990680217
+valid_loss: 0.6081691895961762
+train_accuracy: 0.951125
+valid_accuracy: 0.8139
+train_precision: 0.9504987825003023
+valid_precision: 0.8192751530277707
+train_recall: 0.950275
+valid_recall: 0.818
+train_f1: 0.9501967697777225
+valid_f1: 0.8182331121490831
+
+2023-12-07 19:38:31,164 - ResNet18_train - INFO - Epoch: 61
+train_loss: 0.14640749490708113
+valid_loss: 0.6002415380239486
+train_accuracy: 0.952475
+valid_accuracy: 0.8135
+train_precision: 0.9533337849366248
+valid_precision: 0.812567213459052
+train_recall: 0.953375
+valid_recall: 0.8125
+train_f1: 0.9532264680793422
+valid_f1: 0.8123138765361974
+
+2023-12-07 19:39:22,299 - ResNet18_train - INFO - Epoch: 62
+train_loss: 0.1432579225629568
+valid_loss: 0.6044520134210587
+train_accuracy: 0.955175
+valid_accuracy: 0.812
+train_precision: 0.9557366630030001
+valid_precision: 0.8142898785921997
+train_recall: 0.95575
+valid_recall: 0.8132
+train_f1: 0.9557137914509283
+valid_f1: 0.813561645698206
+
+2023-12-07 19:40:09,975 - ResNet18_train - INFO - Epoch: 63
+train_loss: 0.138690762758255
+valid_loss: 0.6131114699840545
+train_accuracy: 0.9575
+valid_accuracy: 0.8116
+train_precision: 0.9583076430324149
+valid_precision: 0.8147600169107986
+train_recall: 0.957925
+valid_recall: 0.8095
+train_f1: 0.9580249051467108
+valid_f1: 0.8112556639084163
+
+2023-12-07 19:40:56,848 - ResNet18_train - INFO - Epoch: 64
+train_loss: 0.13322684204876423
+valid_loss: 0.6043597832918167
+train_accuracy: 0.9582
+valid_accuracy: 0.8144
+train_precision: 0.9580369626072527
+valid_precision: 0.8167020749268096
+train_recall: 0.9579
+valid_recall: 0.8147
+train_f1: 0.957908560599486
+valid_f1: 0.8154266986806034
+
+2023-12-07 19:41:43,044 - ResNet18_train - INFO - Epoch: 65
+train_loss: 0.13217099631130697
+valid_loss: 0.6104644294261933
+train_accuracy: 0.9597
+valid_accuracy: 0.8187
+train_precision: 0.9585383609599912
+valid_precision: 0.8217726180229569
+train_recall: 0.95845
+valid_recall: 0.82
+train_f1: 0.958470757987966
+valid_f1: 0.8207159360012827
+
+2023-12-07 19:42:29,499 - ResNet18_train - INFO - Epoch: 66
+train_loss: 0.13610252112597226
+valid_loss: 0.6064374717235566
+train_accuracy: 0.957225
+valid_accuracy: 0.8148
+train_precision: 0.958099071466651
+valid_precision: 0.814213756777406
+train_recall: 0.957975
+valid_recall: 0.8119
+train_f1: 0.9579687604897706
+valid_f1: 0.812518742775959
+
+2023-12-07 19:43:15,165 - ResNet18_train - INFO - Epoch: 67
+train_loss: 0.13129232303500177
+valid_loss: 0.6054215352058411
+train_accuracy: 0.958925
+valid_accuracy: 0.8112
+train_precision: 0.9596559419148049
+valid_precision: 0.8141739940781267
+train_recall: 0.95965
+valid_recall: 0.814
+train_f1: 0.9596059594694926
+valid_f1: 0.8139693683069977
+
+2023-12-07 19:44:07,375 - ResNet18_train - INFO - Epoch: 68
+train_loss: 0.12161245181038975
+valid_loss: 0.6155740396499634
+train_accuracy: 0.9629
+valid_accuracy: 0.812
+train_precision: 0.9614833457190897
+valid_precision: 0.8185571582540663
+train_recall: 0.96125
+valid_recall: 0.8169
+train_f1: 0.9612341584417491
+valid_f1: 0.8173789647984477
+
+2023-12-07 19:44:59,633 - ResNet18_train - INFO - Epoch: 69
+train_loss: 0.11853929878212512
+valid_loss: 0.6302531186103821
+train_accuracy: 0.96465
+valid_accuracy: 0.8136
+train_precision: 0.9622257505591034
+valid_precision: 0.8123466766402726
+train_recall: 0.9623
+valid_recall: 0.8115
+train_f1: 0.9622181798370167
+valid_f1: 0.8115190415451509
+
+2023-12-07 19:45:48,743 - ResNet18_train - INFO - Epoch: 70
+train_loss: 0.12240114309713244
+valid_loss: 0.6176405606985093
+train_accuracy: 0.963175
+valid_accuracy: 0.8107
+train_precision: 0.9629211040082387
+valid_precision: 0.8106037259980869
+train_recall: 0.962825
+valid_recall: 0.8104
+train_f1: 0.9627550935718002
+valid_f1: 0.8099303226923342
+
+2023-12-07 19:46:37,528 - ResNet18_train - INFO - Epoch: 71
+train_loss: 0.11051271264478564
+valid_loss: 0.6263556796550751
+train_accuracy: 0.9656
+valid_accuracy: 0.8133
+train_precision: 0.9668476511308675
+valid_precision: 0.8176694320312907
+train_recall: 0.966775
+valid_recall: 0.8158
+train_f1: 0.9667742070490809
+valid_f1: 0.8163868044982501
+
+2023-12-07 19:47:24,783 - ResNet18_train - INFO - Epoch: 72
+train_loss: 0.1110153971672058
+valid_loss: 0.6284433947563172
+train_accuracy: 0.964675
+valid_accuracy: 0.8093
+train_precision: 0.9662433801583624
+valid_precision: 0.812022736174358
+train_recall: 0.9661
+valid_recall: 0.8092
+train_f1: 0.9661099034399667
+valid_f1: 0.8101129827222139
+
+2023-12-07 19:48:12,135 - ResNet18_train - INFO - Epoch: 73
+train_loss: 0.11231853301301599
+valid_loss: 0.618374663901329
+train_accuracy: 0.96565
+valid_accuracy: 0.8159
+train_precision: 0.9669577533789848
+valid_precision: 0.8124160176233852
+train_recall: 0.96685
+valid_recall: 0.8116
+train_f1: 0.9668357014077527
+valid_f1: 0.8118286521379883
+
+2023-12-07 19:48:59,523 - ResNet18_train - INFO - Epoch: 74
+train_loss: 0.10567710260152817
+valid_loss: 0.6421923146724701
+train_accuracy: 0.9674
+valid_accuracy: 0.8156
+train_precision: 0.9680614910334981
+valid_precision: 0.8139427249894747
+train_recall: 0.96785
+valid_recall: 0.8106
+train_f1: 0.9678832149387805
+valid_f1: 0.8115169649923815
+
+2023-12-07 19:49:47,479 - ResNet18_train - INFO - Epoch: 75
+train_loss: 0.10123375979363919
+valid_loss: 0.6372774063348771
+train_accuracy: 0.9696
+valid_accuracy: 0.8149
+train_precision: 0.9696096903343838
+valid_precision: 0.8128542736407082
+train_recall: 0.9696
+valid_recall: 0.8137
+train_f1: 0.9695054952923859
+valid_f1: 0.8128604033159492
+
+2023-12-07 19:50:35,355 - ResNet18_train - INFO - Epoch: 76
+train_loss: 0.09769987620711326
+valid_loss: 0.6430903871297836
+train_accuracy: 0.9698
+valid_accuracy: 0.8159
+train_precision: 0.970266671930755
+valid_precision: 0.8146551857667781
+train_recall: 0.970225
+valid_recall: 0.8138
+train_f1: 0.9702155377037701
+valid_f1: 0.81397808820893
+
+2023-12-07 19:51:21,932 - ResNet18_train - INFO - Epoch: 77
+train_loss: 0.09423036680668592
+valid_loss: 0.621963611125946
+train_accuracy: 0.9719
+valid_accuracy: 0.8147
+train_precision: 0.9726955091411044
+valid_precision: 0.817026906310491
+train_recall: 0.9725
+valid_recall: 0.8146
+train_f1: 0.9725210365509647
+valid_f1: 0.8154612013710997
+
+2023-12-07 19:52:09,021 - ResNet18_train - INFO - Epoch: 78
+train_loss: 0.09457726702913642
+valid_loss: 0.627330812215805
+train_accuracy: 0.973675
+valid_accuracy: 0.8176
+train_precision: 0.9726739141616727
+valid_precision: 0.816080782245133
+train_recall: 0.97265
+valid_recall: 0.8157
+train_f1: 0.9726360726414074
+valid_f1: 0.815555589304402
+
+2023-12-07 19:53:00,925 - ResNet18_train - INFO - Epoch: 79
+train_loss: 0.08749024680405855
+valid_loss: 0.6210561824917793
+train_accuracy: 0.974625
+valid_accuracy: 0.8159
+train_precision: 0.9742617677109032
+valid_precision: 0.8145644734591095
+train_recall: 0.974225
+valid_recall: 0.8136
+train_f1: 0.9742183003414085
+valid_f1: 0.8139020081311036
+
+2023-12-07 19:53:52,572 - ResNet18_train - INFO - Epoch: 80
+train_loss: 0.08386186761185527
+valid_loss: 0.6471002097845078
+train_accuracy: 0.975075
+valid_accuracy: 0.8175
+train_precision: 0.9753766584235501
+valid_precision: 0.8181731829480722
+train_recall: 0.975325
+valid_recall: 0.8163
+train_f1: 0.9753316982767536
+valid_f1: 0.8167787519284617
+
+2023-12-07 19:54:46,018 - ResNet18_train - INFO - Epoch: 81
+train_loss: 0.08176902688331902
+valid_loss: 0.624803466963768
+train_accuracy: 0.976175
+valid_accuracy: 0.818
+train_precision: 0.976765167709317
+valid_precision: 0.8191435543578721
+train_recall: 0.9767
+valid_recall: 0.8175
+train_f1: 0.9766855586383163
+valid_f1: 0.8177567019027897
+
+2023-12-07 19:55:39,412 - ResNet18_train - INFO - Epoch: 82
+train_loss: 0.08096934663578868
+valid_loss: 0.6593274082660675
+train_accuracy: 0.976225
+valid_accuracy: 0.8156
+train_precision: 0.9755794080467173
+valid_precision: 0.8168616654281724
+train_recall: 0.97555
+valid_recall: 0.816
+train_f1: 0.975540703194468
+valid_f1: 0.8162015198947443
+
+2023-12-07 19:56:34,391 - ResNet18_train - INFO - Epoch: 83
+train_loss: 0.08698968777135015
+valid_loss: 0.6533793723106385
+train_accuracy: 0.9713
+valid_accuracy: 0.8126
+train_precision: 0.9746899140265024
+valid_precision: 0.8139588064851158
+train_recall: 0.974425
+valid_recall: 0.8122
+train_f1: 0.9744417755289787
+valid_f1: 0.8129279871051444
+
+2023-12-07 19:57:23,879 - ResNet18_train - INFO - Epoch: 84
+train_loss: 0.07315664272308349
+valid_loss: 0.651300092124939
+train_accuracy: 0.9778
+valid_accuracy: 0.8177
+train_precision: 0.9783968414302597
+valid_precision: 0.8184355529287796
+train_recall: 0.9783
+valid_recall: 0.8167
+train_f1: 0.9783055764566999
+valid_f1: 0.8170543761120383
+
+2023-12-07 19:58:11,103 - ResNet18_train - INFO - Epoch: 85
+train_loss: 0.07373620109148324
+valid_loss: 0.6415717381715774
+train_accuracy: 0.97765
+valid_accuracy: 0.8184
+train_precision: 0.9788335739693408
+valid_precision: 0.8205667958511803
+train_recall: 0.9788
+valid_recall: 0.8201
+train_f1: 0.9787867172058068
+valid_f1: 0.8202441323032729
+
+2023-12-07 19:58:57,742 - ResNet18_train - INFO - Epoch: 86
+train_loss: 0.0699828489696607
+valid_loss: 0.6496504079937935
+train_accuracy: 0.98095
+valid_accuracy: 0.8187
+train_precision: 0.9797337860414267
+valid_precision: 0.8220424150878938
+train_recall: 0.97965
+valid_recall: 0.8206
+train_f1: 0.9796513585268777
+valid_f1: 0.820967975764271
+
+2023-12-07 19:59:45,025 - ResNet18_train - INFO - Epoch: 87
+train_loss: 0.07274863074794412
+valid_loss: 0.6437061905622482
+train_accuracy: 0.979125
+valid_accuracy: 0.8154
+train_precision: 0.9796866487360371
+valid_precision: 0.8177748692494917
+train_recall: 0.979575
+valid_recall: 0.8155
+train_f1: 0.9795878655204533
+valid_f1: 0.8161870856132524
+
+2023-12-07 20:00:31,641 - ResNet18_train - INFO - Epoch: 88
+train_loss: 0.07212799440659583
+valid_loss: 0.6653156179189682
+train_accuracy: 0.978525
+valid_accuracy: 0.815
+train_precision: 0.9790709565214208
+valid_precision: 0.814767620739131
+train_recall: 0.979
+valid_recall: 0.8125
+train_f1: 0.9790150979857628
+valid_f1: 0.8132196682396093
+
+2023-12-07 20:01:18,095 - ResNet18_train - INFO - Epoch: 89
+train_loss: 0.07105581197217106
+valid_loss: 0.6637330377101898
+train_accuracy: 0.979175
+valid_accuracy: 0.8151
+train_precision: 0.9797760464510961
+valid_precision: 0.8175149783251078
+train_recall: 0.979575
+valid_recall: 0.8151
+train_f1: 0.9795865232052314
+valid_f1: 0.8158094392126842
+
+2023-12-07 20:02:04,694 - ResNet18_train - INFO - Epoch: 90
+train_loss: 0.06531690322980285
+valid_loss: 0.6761618856906891
+train_accuracy: 0.981725
+valid_accuracy: 0.8148
+train_precision: 0.9810329778969321
+valid_precision: 0.8172914955998158
+train_recall: 0.980975
+valid_recall: 0.8154
+train_f1: 0.980985605842151
+valid_f1: 0.8161124143182978
+
+2023-12-07 20:02:52,040 - ResNet18_train - INFO - Epoch: 91
+train_loss: 0.06462157974690198
+valid_loss: 0.6645825994610787
+train_accuracy: 0.980875
+valid_accuracy: 0.8213
+train_precision: 0.9820247947416614
+valid_precision: 0.822753516984023
+train_recall: 0.981925
+valid_recall: 0.8197
+train_f1: 0.9819331142335581
+valid_f1: 0.8205104503539087
+
+2023-12-07 20:03:42,678 - ResNet18_train - INFO - Epoch: 92
+train_loss: 0.0643812777608633
+valid_loss: 0.650088768774271
+train_accuracy: 0.982375
+valid_accuracy: 0.8186
+train_precision: 0.9814683884976361
+valid_precision: 0.8173179555776487
+train_recall: 0.9814
+valid_recall: 0.8145
+train_f1: 0.9814106159291023
+valid_f1: 0.8154663272096071
+
+2023-12-07 20:04:35,653 - ResNet18_train - INFO - Epoch: 93
+train_loss: 0.060194901125691834
+valid_loss: 0.6568840702295303
+train_accuracy: 0.9846
+valid_accuracy: 0.8171
+train_precision: 0.9829653880900779
+valid_precision: 0.8175294330431854
+train_recall: 0.982925
+valid_recall: 0.8157
+train_f1: 0.982926918414119
+valid_f1: 0.8163725003974509
+
+2023-12-07 20:05:26,505 - ResNet18_train - INFO - Epoch: 94
+train_loss: 0.05816216642390937
+valid_loss: 0.6819859749794006
+train_accuracy: 0.984
+valid_accuracy: 0.8207
+train_precision: 0.984004740457835
+valid_precision: 0.8219757944551291
+train_recall: 0.98395
+valid_recall: 0.8199
+train_f1: 0.9839585426814969
+valid_f1: 0.8206581748907225
+
+2023-12-07 20:06:14,345 - ResNet18_train - INFO - Epoch: 95
+train_loss: 0.05899676483385265
+valid_loss: 0.6754456174612046
+train_accuracy: 0.9846
+valid_accuracy: 0.8143
+train_precision: 0.984615837631649
+valid_precision: 0.8193237701990876
+train_recall: 0.9846
+valid_recall: 0.8177
+train_f1: 0.9846018330699381
+valid_f1: 0.8180742766316097
+
+2023-12-07 20:07:06,089 - ResNet18_train - INFO - Epoch: 96
+train_loss: 0.05398623516596854
+valid_loss: 0.6649287669897079
+train_accuracy: 0.98545
+valid_accuracy: 0.8165
+train_precision: 0.986602153037322
+valid_precision: 0.8180773357098852
+train_recall: 0.9866
+valid_recall: 0.8165
+train_f1: 0.9865985212344558
+valid_f1: 0.817086177790092
+
+2023-12-07 20:07:58,121 - ResNet18_train - INFO - Epoch: 97
+train_loss: 0.06325449779517948
+valid_loss: 0.6993368448734284
+train_accuracy: 0.9817
+valid_accuracy: 0.8154
+train_precision: 0.9814192778438553
+valid_precision: 0.8183131165508132
+train_recall: 0.981275
+valid_recall: 0.815
+train_f1: 0.9812617504935317
+valid_f1: 0.8158675046507047
+
+2023-12-07 20:08:45,617 - ResNet18_train - INFO - Epoch: 98
+train_loss: 0.05208783420026302
+valid_loss: 0.6836250290870667
+train_accuracy: 0.985275
+valid_accuracy: 0.8146
+train_precision: 0.9845964469749059
+valid_precision: 0.8190122442088373
+train_recall: 0.984575
+valid_recall: 0.8184
+train_f1: 0.9845666187881404
+valid_f1: 0.8182994303997876
+
+2023-12-07 20:09:35,651 - ResNet18_train - INFO - Epoch: 99
+train_loss: 0.05134555714316666
+valid_loss: 0.6795127957105637
+train_accuracy: 0.986075
+valid_accuracy: 0.8176
+train_precision: 0.986422713878245
+valid_precision: 0.8259585831371334
+train_recall: 0.986375
+valid_recall: 0.823
+train_f1: 0.9863860463694913
+valid_f1: 0.8240931280706829
+
+2023-12-07 20:10:28,033 - ResNet18_train - INFO - Epoch: 100
+train_loss: 0.04934274272155017
+valid_loss: 0.6751021054029465
+train_accuracy: 0.98655
+valid_accuracy: 0.8208
+train_precision: 0.9864249154202777
+valid_precision: 0.8184139118962473
+train_recall: 0.9864
+valid_recall: 0.8188
+train_f1: 0.986392909126954
+valid_f1: 0.8183752394449424
+
+2023-12-07 20:11:19,793 - ResNet18_train - INFO - Epoch: 101
+train_loss: 0.05091435978524387
+valid_loss: 0.6970216601014138
+train_accuracy: 0.985675
+valid_accuracy: 0.8173
+train_precision: 0.985706607461865
+valid_precision: 0.8212142882149542
+train_recall: 0.9856
+valid_recall: 0.8188
+train_f1: 0.985608136960206
+valid_f1: 0.8194665458482748
+
+2023-12-07 20:12:08,829 - ResNet18_train - INFO - Epoch: 102
+train_loss: 0.04796976110693067
+valid_loss: 0.679967344290018
+train_accuracy: 0.9882
+valid_accuracy: 0.817
+train_precision: 0.987247301578467
+valid_precision: 0.8217085526495055
+train_recall: 0.987225
+valid_recall: 0.8198
+train_f1: 0.9872260694513361
+valid_f1: 0.820392729755284
+
+2023-12-07 20:12:59,105 - ResNet18_train - INFO - Epoch: 103
+train_loss: 0.04726130411718041
+valid_loss: 0.6974475048065185
+train_accuracy: 0.986575
+valid_accuracy: 0.818
+train_precision: 0.9874276973941895
+valid_precision: 0.8190844931709601
+train_recall: 0.987375
+valid_recall: 0.8181
+train_f1: 0.9873725823555769
+valid_f1: 0.818176449474358
+
+2023-12-07 20:13:49,183 - ResNet18_train - INFO - Epoch: 104
+train_loss: 0.04673133803717792
+valid_loss: 0.690362015748024
+train_accuracy: 0.9871
+valid_accuracy: 0.819
+train_precision: 0.9882847996800017
+valid_precision: 0.8218493273438953
+train_recall: 0.988275
+valid_recall: 0.8215
+train_f1: 0.9882724595369539
+valid_f1: 0.8214969177869292
+
+2023-12-07 20:14:40,011 - ResNet18_train - INFO - Epoch: 105
+train_loss: 0.04429712971616536
+valid_loss: 0.6765534087896347
+train_accuracy: 0.9887
+valid_accuracy: 0.8198
+train_precision: 0.9884455112082485
+valid_precision: 0.8191590622058613
+train_recall: 0.988425
+valid_recall: 0.8198
+train_f1: 0.9884175874228155
+valid_f1: 0.819260672381274
+
+2023-12-07 20:15:32,837 - ResNet18_train - INFO - Epoch: 106
+train_loss: 0.04554964968953282
+valid_loss: 0.7241817165374755
+train_accuracy: 0.986875
+valid_accuracy: 0.818
+train_precision: 0.9884644042953349
+valid_precision: 0.8180638463373764
+train_recall: 0.988425
+valid_recall: 0.816
+train_f1: 0.9884213936594846
+valid_f1: 0.8163618120510157
+
+2023-12-07 20:16:24,464 - ResNet18_train - INFO - Epoch: 107
+train_loss: 0.045080457753688095
+valid_loss: 0.7004390853404999
+train_accuracy: 0.989575
+valid_accuracy: 0.8185
+train_precision: 0.990121764772349
+valid_precision: 0.8215158810398114
+train_recall: 0.9901
+valid_recall: 0.8191
+train_f1: 0.9900962958699907
+valid_f1: 0.820010923171109
+
+2023-12-07 20:17:15,459 - ResNet18_train - INFO - Epoch: 108
+train_loss: 0.04449663419499993
+valid_loss: 0.6947794264316559
+train_accuracy: 0.986925
+valid_accuracy: 0.8188
+train_precision: 0.986911322548767
+valid_precision: 0.8226146743307158
+train_recall: 0.986875
+valid_recall: 0.8226
+train_f1: 0.9868644888280486
+valid_f1: 0.8221029321545993
+
+2023-12-07 20:18:05,446 - ResNet18_train - INFO - Epoch: 109
+train_loss: 0.04188219065591693
+valid_loss: 0.7175565667629242
+train_accuracy: 0.98885
+valid_accuracy: 0.8197
+train_precision: 0.9883720494642195
+valid_precision: 0.8211749884844214
+train_recall: 0.9883
+valid_recall: 0.8185
+train_f1: 0.9882999283874054
+valid_f1: 0.8190028857555957
+
+2023-12-07 20:18:56,671 - ResNet18_train - INFO - Epoch: 110
+train_loss: 0.04148828486157581
+valid_loss: 0.7164795982569456
+train_accuracy: 0.98795
+valid_accuracy: 0.8182
+train_precision: 0.9892340143365232
+valid_precision: 0.8198071218249373
+train_recall: 0.989175
+valid_recall: 0.8187
+train_f1: 0.9891781083246768
+valid_f1: 0.8190356544670331
+
+2023-12-07 20:19:48,445 - ResNet18_train - INFO - Epoch: 111
+train_loss: 0.06955169409941882
+valid_loss: 0.762834219777584
+train_accuracy: 0.980725
+valid_accuracy: 0.8073
+train_precision: 0.9797510089659861
+valid_precision: 0.8169777887876949
+train_recall: 0.97945
+valid_recall: 0.815
+train_f1: 0.9794170718398285
+valid_f1: 0.8156174064565928
+
+2023-12-07 20:20:39,060 - ResNet18_train - INFO - Epoch: 112
+train_loss: 0.0380990901151672
+valid_loss: 0.7263514303207398
+train_accuracy: 0.99
+valid_accuracy: 0.8179
+train_precision: 0.9898575570507566
+valid_precision: 0.8192434598063096
+train_recall: 0.989825
+valid_recall: 0.8182
+train_f1: 0.9898245973491434
+valid_f1: 0.8183305510878925
+
+2023-12-07 20:21:29,249 - ResNet18_train - INFO - Epoch: 113
+train_loss: 0.037156611059978605
+valid_loss: 0.7106664328813553
+train_accuracy: 0.9901
+valid_accuracy: 0.8188
+train_precision: 0.990154103532221
+valid_precision: 0.8213736841764838
+train_recall: 0.99015
+valid_recall: 0.8209
+train_f1: 0.9901488340805307
+valid_f1: 0.820903054792749
+
+2023-12-07 20:22:16,461 - ResNet18_train - INFO - Epoch: 114
+train_loss: 0.03578350436454639
+valid_loss: 0.7030922597408295
+train_accuracy: 0.990525
+valid_accuracy: 0.8182
+train_precision: 0.9905677942476521
+valid_precision: 0.8192770533482328
+train_recall: 0.99055
+valid_recall: 0.8197
+train_f1: 0.9905434476773318
+valid_f1: 0.8192763354914757
+
+2023-12-07 20:23:03,150 - ResNet18_train - INFO - Epoch: 115
+train_loss: 0.03403041740665212
+valid_loss: 0.712904630446434
+train_accuracy: 0.991225
+valid_accuracy: 0.8204
+train_precision: 0.9912044163889845
+valid_precision: 0.8218889991892538
+train_recall: 0.9912
+valid_recall: 0.8205
+train_f1: 0.9911999969231747
+valid_f1: 0.8209618037812086
+
+2023-12-07 20:23:51,472 - ResNet18_train - INFO - Epoch: 116
+train_loss: 0.03298741646949202
+valid_loss: 0.7087500982761383
+train_accuracy: 0.991925
+valid_accuracy: 0.815
+train_precision: 0.9907223709544601
+valid_precision: 0.8190517783212
+train_recall: 0.9907
+valid_recall: 0.818
+train_f1: 0.9907010259488299
+valid_f1: 0.8183421610341557
+
+2023-12-07 20:24:42,267 - ResNet18_train - INFO - Epoch: 117
+train_loss: 0.0340878481073305
+valid_loss: 0.7095858562231064
+train_accuracy: 0.991475
+valid_accuracy: 0.8217
+train_precision: 0.9916881301015014
+valid_precision: 0.8216665699239022
+train_recall: 0.991675
+valid_recall: 0.8223
+train_f1: 0.9916723184286329
+valid_f1: 0.8215095559317671
+
+2023-12-07 20:25:33,027 - ResNet18_train - INFO - Epoch: 118
+train_loss: 0.034798154109343886
+valid_loss: 0.7307662922382355
+train_accuracy: 0.9909
+valid_accuracy: 0.8196
+train_precision: 0.9912692124588757
+valid_precision: 0.8271670572719267
+train_recall: 0.99125
+valid_recall: 0.8253
+train_f1: 0.9912504601529852
+valid_f1: 0.8258500284894357
+
+2023-12-07 20:26:19,136 - ResNet18_train - INFO - Epoch: 119
+train_loss: 0.03403279386237264
+valid_loss: 0.7434510323524475
+train_accuracy: 0.99045
+valid_accuracy: 0.824
+train_precision: 0.9909988247324975
+valid_precision: 0.8202485329617857
+train_recall: 0.990975
+valid_recall: 0.8189
+train_f1: 0.9909804473887887
+valid_f1: 0.8193839878848699
+
+2023-12-07 20:27:07,349 - ResNet18_train - INFO - Epoch: 120
+train_loss: 0.030220163530576973
+valid_loss: 0.7174749204874039
+train_accuracy: 0.99235
+valid_accuracy: 0.8185
+train_precision: 0.9925589339619746
+valid_precision: 0.824636810761983
+train_recall: 0.99255
+valid_recall: 0.8221
+train_f1: 0.992549845815547
+valid_f1: 0.8230056555358036
+
+2023-12-07 20:27:54,644 - ResNet18_train - INFO - Epoch: 121
+train_loss: 0.03489950910629704
+valid_loss: 0.728721812915802
+train_accuracy: 0.991125
+valid_accuracy: 0.8196
+train_precision: 0.9902391215001993
+valid_precision: 0.8195952703495876
+train_recall: 0.9902
+valid_recall: 0.8178
+train_f1: 0.9902015099639683
+valid_f1: 0.8183876965007655
+
+2023-12-07 20:28:41,105 - ResNet18_train - INFO - Epoch: 122
+train_loss: 0.03365375705771148
+valid_loss: 0.7356614515066147
+train_accuracy: 0.9914
+valid_accuracy: 0.8178
+train_precision: 0.9915263343916864
+valid_precision: 0.826153570363827
+train_recall: 0.9915
+valid_recall: 0.8237
+train_f1: 0.9914983656791697
+valid_f1: 0.8243006049974245
+
+2023-12-07 20:29:28,438 - ResNet18_train - INFO - Epoch: 123
+train_loss: 0.033872714765090496
+valid_loss: 0.7439173700094223
+train_accuracy: 0.991425
+valid_accuracy: 0.8207
+train_precision: 0.9911725290541135
+valid_precision: 0.8198543773507199
+train_recall: 0.991125
+valid_recall: 0.8173
+train_f1: 0.9911241839544015
+valid_f1: 0.8178911151409824
+
+2023-12-07 20:30:14,667 - ResNet18_train - INFO - Epoch: 124
+train_loss: 0.03212597950324416
+valid_loss: 0.7182600627541542
+train_accuracy: 0.992175
+valid_accuracy: 0.819
+train_precision: 0.9916215645431552
+valid_precision: 0.8205598503616462
+train_recall: 0.9916
+valid_recall: 0.8202
+train_f1: 0.9915975212504633
+valid_f1: 0.8202739870089385
+
+2023-12-07 20:31:00,898 - ResNet18_train - INFO - Epoch: 125
+train_loss: 0.02687993850549683
+valid_loss: 0.7138062811851501
+train_accuracy: 0.992875
+valid_accuracy: 0.8247
+train_precision: 0.9935544018585033
+valid_precision: 0.8210577005321001
+train_recall: 0.99355
+valid_recall: 0.8205
+train_f1: 0.993548390102954
+valid_f1: 0.820597916505467
+
+2023-12-07 20:31:47,124 - ResNet18_train - INFO - Epoch: 126
+train_loss: 0.026712728566396983
+valid_loss: 0.7199205219864845
+train_accuracy: 0.993275
+valid_accuracy: 0.8192
+train_precision: 0.9937026832698624
+valid_precision: 0.8250262165828625
+train_recall: 0.9937
+valid_recall: 0.8235
+train_f1: 0.9937000894684405
+valid_f1: 0.8239256555922064
+
+2023-12-07 20:32:41,838 - ResNet18_train - INFO - Epoch: 127
+train_loss: 0.02808301057671197
+valid_loss: 0.7067756394863128
+train_accuracy: 0.993275
+valid_accuracy: 0.8225
+train_precision: 0.9930390325620668
+valid_precision: 0.8278101153007288
+train_recall: 0.993025
+valid_recall: 0.8263
+train_f1: 0.9930260157461729
+valid_f1: 0.8268383211245602
+
+2023-12-07 20:33:32,307 - ResNet18_train - INFO - Epoch: 128
+train_loss: 0.024497326364461332
+valid_loss: 0.7337208055973053
+train_accuracy: 0.9938
+valid_accuracy: 0.8221
+train_precision: 0.993586383264928
+valid_precision: 0.8212685201233763
+train_recall: 0.993575
+valid_recall: 0.8208
+train_f1: 0.9935732969732324
+valid_f1: 0.820612162079397
+
+2023-12-07 20:34:21,807 - ResNet18_train - INFO - Epoch: 129
+train_loss: 0.026988664508238436
+valid_loss: 0.7422287304639816
+train_accuracy: 0.992825
+valid_accuracy: 0.8203
+train_precision: 0.9932211576529495
+valid_precision: 0.8160782984664788
+train_recall: 0.9932
+valid_recall: 0.8145
+train_f1: 0.9931989925986756
+valid_f1: 0.8148577701549997
+
+2023-12-07 20:35:11,030 - ResNet18_train - INFO - Epoch: 130
+train_loss: 0.025886046636197715
+valid_loss: 0.7249057994365692
+train_accuracy: 0.99315
+valid_accuracy: 0.8224
+train_precision: 0.9933904452680137
+valid_precision: 0.8233388092517154
+train_recall: 0.993375
+valid_recall: 0.8225
+train_f1: 0.9933714834764429
+valid_f1: 0.822675214914592
+
+2023-12-07 20:36:00,801 - ResNet18_train - INFO - Epoch: 131
+train_loss: 0.023918210820481182
+valid_loss: 0.7339512975096703
+train_accuracy: 0.994375
+valid_accuracy: 0.8232
+train_precision: 0.9933293052656987
+valid_precision: 0.8232692519835256
+train_recall: 0.993325
+valid_recall: 0.8231
+train_f1: 0.9933259146188941
+valid_f1: 0.8230927714315387
+
+2023-12-07 20:36:49,714 - ResNet18_train - INFO - Epoch: 132
+train_loss: 0.022841457548830657
+valid_loss: 0.7514915502458811
+train_accuracy: 0.9944
+valid_accuracy: 0.8267
+train_precision: 0.9946795289005836
+valid_precision: 0.8234895141547645
+train_recall: 0.994675
+valid_recall: 0.8234
+train_f1: 0.9946738240134615
+valid_f1: 0.8231699250580532
+
+2023-12-07 20:37:39,096 - ResNet18_train - INFO - Epoch: 133
+train_loss: 0.023907026241812856
+valid_loss: 0.7426609531164169
+train_accuracy: 0.994425
+valid_accuracy: 0.8258
+train_precision: 0.9942562357336321
+valid_precision: 0.8263126657428437
+train_recall: 0.99425
+valid_recall: 0.8246
+train_f1: 0.9942484814592659
+valid_f1: 0.8252095054547862
+
+2023-12-07 20:38:27,754 - ResNet18_train - INFO - Epoch: 134
+train_loss: 0.0239463481945917
+valid_loss: 0.747521677916497
+train_accuracy: 0.9941
+valid_accuracy: 0.8217
+train_precision: 0.99445330905471
+valid_precision: 0.8228916710726271
+train_recall: 0.99445
+valid_recall: 0.8229
+train_f1: 0.9944485943398551
+valid_f1: 0.8226742752982729
+
+2023-12-07 20:39:12,750 - ResNet18_train - INFO - Epoch: 135
+train_loss: 0.024079809138923883
+valid_loss: 0.7555024571657181
+train_accuracy: 0.994575
+valid_accuracy: 0.8203
+train_precision: 0.9937908954983901
+valid_precision: 0.8262986062345211
+train_recall: 0.993775
+valid_recall: 0.8245
+train_f1: 0.993775406101945
+valid_f1: 0.8252174661809971
+
+2023-12-07 20:39:57,673 - ResNet18_train - INFO - Epoch: 136
+train_loss: 0.020675444230157883
+valid_loss: 0.7590987322688103
+train_accuracy: 0.9951
+valid_accuracy: 0.82
+train_precision: 0.9949345284186697
+valid_precision: 0.8249336170329825
+train_recall: 0.994925
+valid_recall: 0.8245
+train_f1: 0.9949243059910763
+valid_f1: 0.8244208419899918
+
+2023-12-07 20:40:44,431 - ResNet18_train - INFO - Epoch: 137
+train_loss: 0.021541797293163835
+valid_loss: 0.7519071031332016
+train_accuracy: 0.994675
+valid_accuracy: 0.8254
+train_precision: 0.994781147923758
+valid_precision: 0.8253802472245523
+train_recall: 0.994775
+valid_recall: 0.8239
+train_f1: 0.9947745991778909
+valid_f1: 0.8243551479840054
+
+2023-12-07 20:41:30,514 - ResNet18_train - INFO - Epoch: 138
+train_loss: 0.021593556785583497
+valid_loss: 0.742121205329895
+train_accuracy: 0.9952
+valid_accuracy: 0.8272
+train_precision: 0.9950072570448452
+valid_precision: 0.8224707500181098
+train_recall: 0.995
+valid_recall: 0.8226
+train_f1: 0.9949994016669927
+valid_f1: 0.8224459881296184
+
+2023-12-07 20:42:18,244 - ResNet18_train - INFO - Epoch: 139
+train_loss: 0.020791612109495327
+valid_loss: 0.7445052872776985
+train_accuracy: 0.995075
+valid_accuracy: 0.8215
+train_precision: 0.9948601771677961
+valid_precision: 0.8232562353579153
+train_recall: 0.99485
+valid_recall: 0.8218
+train_f1: 0.9948505902186849
+valid_f1: 0.8222322990413843
+
+2023-12-07 20:43:08,065 - ResNet18_train - INFO - Epoch: 140
+train_loss: 0.02095785057072062
+valid_loss: 0.7636881081819534
+train_accuracy: 0.994325
+valid_accuracy: 0.8276
+train_precision: 0.9947317967052656
+valid_precision: 0.8223599484409677
+train_recall: 0.994725
+valid_recall: 0.8215
+train_f1: 0.9947241280746887
+valid_f1: 0.8216070250695657
+
+2023-12-07 20:44:00,293 - ResNet18_train - INFO - Epoch: 141
+train_loss: 0.018799030288867653
+valid_loss: 0.7750319848060608
+train_accuracy: 0.9956
+valid_accuracy: 0.8226
+train_precision: 0.9953305972322852
+valid_precision: 0.8275928566480089
+train_recall: 0.995325
+valid_recall: 0.8263
+train_f1: 0.9953256476055456
+valid_f1: 0.8266699035983304
+
+2023-12-07 20:44:50,813 - ResNet18_train - INFO - Epoch: 142
+train_loss: 0.01970504257949069
+valid_loss: 0.7650260537624359
+train_accuracy: 0.99535
+valid_accuracy: 0.8232
+train_precision: 0.9951063169481049
+valid_precision: 0.8225898352426991
+train_recall: 0.9951
+valid_recall: 0.8195
+train_f1: 0.9951007452612394
+valid_f1: 0.820586400842621
+
+2023-12-07 20:45:39,731 - ResNet18_train - INFO - Epoch: 143
+train_loss: 0.020147199096996336
+valid_loss: 0.7276409883975983
+train_accuracy: 0.99515
+valid_accuracy: 0.825
+train_precision: 0.9949369719264949
+valid_precision: 0.825271444920756
+train_recall: 0.994925
+valid_recall: 0.8233
+train_f1: 0.9949249838987274
+valid_f1: 0.8240619579360561
+
+2023-12-07 20:46:27,218 - ResNet18_train - INFO - Epoch: 144
+train_loss: 0.019362222753325477
+valid_loss: 0.772022666978836
+train_accuracy: 0.994375
+valid_accuracy: 0.818
+train_precision: 0.9949439467836629
+valid_precision: 0.8218015841309151
+train_recall: 0.994925
+valid_recall: 0.8205
+train_f1: 0.99492537072354
+valid_f1: 0.8208447363547684
+
+2023-12-07 20:47:14,326 - ResNet18_train - INFO - Epoch: 145
+train_loss: 0.017781226362939925
+valid_loss: 0.7731198367595673
+train_accuracy: 0.995175
+valid_accuracy: 0.8227
+train_precision: 0.9953103122616264
+valid_precision: 0.8268621403305259
+train_recall: 0.9953
+valid_recall: 0.8251
+train_f1: 0.9953005797144162
+valid_f1: 0.8253699310452924
+
+2023-12-07 20:48:01,504 - ResNet18_train - INFO - Epoch: 146
+train_loss: 0.01977915196577087
+valid_loss: 0.7742445471048355
+train_accuracy: 0.995075
+valid_accuracy: 0.8217
+train_precision: 0.994688852863486
+valid_precision: 0.8188222016184235
+train_recall: 0.994675
+valid_recall: 0.8172
+train_f1: 0.9946744370776238
+valid_f1: 0.81761702542277
+
+2023-12-07 20:48:47,460 - ResNet18_train - INFO - Epoch: 147
+train_loss: 0.019407159835612402
+valid_loss: 0.7685715208530426
+train_accuracy: 0.995075
+valid_accuracy: 0.819
+train_precision: 0.9952580313516901
+valid_precision: 0.8219204900823334
+train_recall: 0.99525
+valid_recall: 0.8216
+train_f1: 0.9952489908177952
+valid_f1: 0.8216045584701085
+
+2023-12-07 20:49:34,517 - ResNet18_train - INFO - Epoch: 148
+train_loss: 0.017708867962844668
+valid_loss: 0.7569280282497406
+train_accuracy: 0.9955
+valid_accuracy: 0.8206
+train_precision: 0.9954619897634644
+valid_precision: 0.8267211608514939
+train_recall: 0.99545
+valid_recall: 0.8253
+train_f1: 0.9954506030419114
+valid_f1: 0.8256150663041235
+
+2023-12-07 20:50:21,524 - ResNet18_train - INFO - Epoch: 149
+train_loss: 0.017536768891802057
+valid_loss: 0.7831432718515396
+train_accuracy: 0.9957
+valid_accuracy: 0.8195
+train_precision: 0.9957359530545274
+valid_precision: 0.8263570404739908
+train_recall: 0.995725
+valid_recall: 0.8229
+train_f1: 0.9957240277223874
+valid_f1: 0.8236115486704002
+
+2023-12-07 20:51:09,829 - ResNet18_train - INFO - Epoch: 150
+train_loss: 0.01585182298901491
+valid_loss: 0.7907700163364411
+train_accuracy: 0.9961
+valid_accuracy: 0.8232
+train_precision: 0.9955322658342765
+valid_precision: 0.8214081911703041
+train_recall: 0.995525
+valid_recall: 0.8198
+train_f1: 0.9955245872748425
+valid_f1: 0.819985626888048
+
