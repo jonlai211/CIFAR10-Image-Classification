@@ -1,0 +1,409 @@
+2023-12-08 02:37:24,223 - modifiedNet_bs64_ep300_train - INFO - Start training ...
+2023-12-08 02:37:25,498 - modifiedNet_bs64_ep300_train - INFO - batch_size: 64
+valid_size: 0.2
+number_of_workers: 10
+n_epochs: 300
+train_on_gpu: True
+optimizer: SGD (
+Parameter Group 0
+    dampening: 0
+    differentiable: False
+    foreach: None
+    lr: 0.0001
+    maximize: False
+    momentum: 0.9
+    nesterov: False
+    weight_decay: 0
+)
+criterion: CrossEntropyLoss()
+
+2023-12-08 02:38:11,527 - modifiedNet_bs64_ep300_train - INFO - Epoch: 10
+train_loss: 1.951267632675171
+valid_loss: 1.956228106880188
+train_accuracy: 0.294225
+valid_accuracy: 0.2933
+train_precision: 0.30039280531126733
+valid_precision: 0.2934665979166828
+train_recall: 0.2981
+valid_recall: 0.2867
+train_f1: 0.2690201808067306
+valid_f1: 0.2597617659093719
+
+2023-12-08 02:38:11,527 - modifiedNet_bs64_ep300_train - INFO - Validation loss decreased (1.956228 --> 1.956228).  Saving model ...
+2023-12-08 02:39:01,863 - modifiedNet_bs64_ep300_train - INFO - Epoch: 20
+train_loss: 1.7548554973602295
+valid_loss: 1.7638151065826415
+train_accuracy: 0.34155
+valid_accuracy: 0.3329
+train_precision: 0.3375023182998967
+valid_precision: 0.31664680839294007
+train_recall: 0.343825
+valid_recall: 0.3336
+train_f1: 0.3147785583675896
+valid_f1: 0.30505341530151725
+
+2023-12-08 02:39:01,863 - modifiedNet_bs64_ep300_train - INFO - Validation loss decreased (1.763815 --> 1.763815).  Saving model ...
+2023-12-08 02:39:52,701 - modifiedNet_bs64_ep300_train - INFO - Epoch: 30
+train_loss: 1.6508889881134032
+valid_loss: 1.663503000640869
+train_accuracy: 0.373125
+valid_accuracy: 0.3627
+train_precision: 0.36814423382631173
+valid_precision: 0.34764249282427107
+train_recall: 0.374875
+valid_recall: 0.3622
+train_f1: 0.34930523648375894
+valid_f1: 0.3379110276539458
+
+2023-12-08 02:39:52,701 - modifiedNet_bs64_ep300_train - INFO - Validation loss decreased (1.663503 --> 1.663503).  Saving model ...
+2023-12-08 02:40:42,833 - modifiedNet_bs64_ep300_train - INFO - Epoch: 40
+train_loss: 1.6207362310409545
+valid_loss: 1.636002621459961
+train_accuracy: 0.385075
+valid_accuracy: 0.3779
+train_precision: 0.37477523690567943
+valid_precision: 0.35896818071565517
+train_recall: 0.385675
+valid_recall: 0.3769
+train_f1: 0.3584011171396563
+valid_f1: 0.3503799423498977
+
+2023-12-08 02:40:42,833 - modifiedNet_bs64_ep300_train - INFO - Validation loss decreased (1.636003 --> 1.636003).  Saving model ...
+2023-12-08 02:41:32,875 - modifiedNet_bs64_ep300_train - INFO - Epoch: 50
+train_loss: 1.548971545600891
+valid_loss: 1.5668022697448731
+train_accuracy: 0.4115
+valid_accuracy: 0.4051
+train_precision: 0.3981542397250836
+valid_precision: 0.3834648948383173
+train_recall: 0.41255
+valid_recall: 0.3979
+train_f1: 0.38804472847618005
+valid_f1: 0.3731296546866665
+
+2023-12-08 02:41:32,875 - modifiedNet_bs64_ep300_train - INFO - Validation loss decreased (1.566802 --> 1.566802).  Saving model ...
+2023-12-08 02:42:23,793 - modifiedNet_bs64_ep300_train - INFO - Epoch: 60
+train_loss: 1.5035175117492676
+valid_loss: 1.5277406171798706
+train_accuracy: 0.437975
+valid_accuracy: 0.4231
+train_precision: 0.42954872150818535
+valid_precision: 0.4194604399744644
+train_recall: 0.44
+valid_recall: 0.4276
+train_f1: 0.42008790333965296
+valid_f1: 0.4082009798014841
+
+2023-12-08 02:42:23,793 - modifiedNet_bs64_ep300_train - INFO - Validation loss decreased (1.527741 --> 1.527741).  Saving model ...
+2023-12-08 02:43:12,645 - modifiedNet_bs64_ep300_train - INFO - Epoch: 70
+train_loss: 1.4510517679214479
+valid_loss: 1.4708060354232788
+train_accuracy: 0.46255
+valid_accuracy: 0.4537
+train_precision: 0.44756015009764216
+valid_precision: 0.4413627997273354
+train_recall: 0.463875
+valid_recall: 0.4557
+train_f1: 0.44300372444843633
+valid_f1: 0.43620568990069186
+
+2023-12-08 02:43:12,645 - modifiedNet_bs64_ep300_train - INFO - Validation loss decreased (1.470806 --> 1.470806).  Saving model ...
+2023-12-08 02:44:01,204 - modifiedNet_bs64_ep300_train - INFO - Epoch: 80
+train_loss: 1.384951574897766
+valid_loss: 1.4122855009078978
+train_accuracy: 0.485475
+valid_accuracy: 0.4785
+train_precision: 0.4742390011187379
+valid_precision: 0.46490797721896654
+train_recall: 0.4861
+valid_recall: 0.4781
+train_f1: 0.46759212385512156
+valid_f1: 0.4591169173979606
+
+2023-12-08 02:44:01,204 - modifiedNet_bs64_ep300_train - INFO - Validation loss decreased (1.412286 --> 1.412286).  Saving model ...
+2023-12-08 02:44:52,370 - modifiedNet_bs64_ep300_train - INFO - Epoch: 90
+train_loss: 1.330168507194519
+valid_loss: 1.3564714405059815
+train_accuracy: 0.513075
+valid_accuracy: 0.5021
+train_precision: 0.500058509830074
+valid_precision: 0.48390689473765935
+train_recall: 0.51155
+valid_recall: 0.4962
+train_f1: 0.49717075153640733
+valid_f1: 0.48158635890730955
+
+2023-12-08 02:44:52,370 - modifiedNet_bs64_ep300_train - INFO - Validation loss decreased (1.356471 --> 1.356471).  Saving model ...
+2023-12-08 02:45:46,362 - modifiedNet_bs64_ep300_train - INFO - Epoch: 100
+train_loss: 1.2843701946258546
+valid_loss: 1.3087648315429687
+train_accuracy: 0.53295
+valid_accuracy: 0.5196
+train_precision: 0.5223790065450609
+valid_precision: 0.5134260148955504
+train_recall: 0.5328
+valid_recall: 0.5239
+train_f1: 0.522484417809024
+valid_f1: 0.5135934597459763
+
+2023-12-08 02:45:46,363 - modifiedNet_bs64_ep300_train - INFO - Validation loss decreased (1.308765 --> 1.308765).  Saving model ...
+2023-12-08 02:46:39,041 - modifiedNet_bs64_ep300_train - INFO - Epoch: 110
+train_loss: 1.2432635765075684
+valid_loss: 1.2723619632720948
+train_accuracy: 0.549525
+valid_accuracy: 0.5385
+train_precision: 0.5366654130918104
+valid_precision: 0.5291144751387533
+train_recall: 0.54395
+valid_recall: 0.5363
+train_f1: 0.5358154923045747
+valid_f1: 0.5288067972328612
+
+2023-12-08 02:46:39,041 - modifiedNet_bs64_ep300_train - INFO - Validation loss decreased (1.272362 --> 1.272362).  Saving model ...
+2023-12-08 02:47:29,851 - modifiedNet_bs64_ep300_train - INFO - Epoch: 120
+train_loss: 1.2129452172279358
+valid_loss: 1.2398111122131348
+train_accuracy: 0.556425
+valid_accuracy: 0.5417
+train_precision: 0.5465363535992586
+valid_precision: 0.5343725950590872
+train_recall: 0.556625
+valid_recall: 0.5442
+train_f1: 0.5470733144738809
+valid_f1: 0.5349902797321343
+
+2023-12-08 02:47:29,851 - modifiedNet_bs64_ep300_train - INFO - Validation loss decreased (1.239811 --> 1.239811).  Saving model ...
+2023-12-08 02:48:20,143 - modifiedNet_bs64_ep300_train - INFO - Epoch: 130
+train_loss: 1.1816458404541015
+valid_loss: 1.210117599105835
+train_accuracy: 0.57355
+valid_accuracy: 0.5609
+train_precision: 0.5662864084450508
+valid_precision: 0.5568282111457424
+train_recall: 0.5733
+valid_recall: 0.5632
+train_f1: 0.566218139609243
+valid_f1: 0.5566913998433733
+
+2023-12-08 02:48:20,143 - modifiedNet_bs64_ep300_train - INFO - Validation loss decreased (1.210118 --> 1.210118).  Saving model ...
+2023-12-08 02:49:10,949 - modifiedNet_bs64_ep300_train - INFO - Epoch: 140
+train_loss: 1.1618192041397095
+valid_loss: 1.1882618710517883
+train_accuracy: 0.5785
+valid_accuracy: 0.5709
+train_precision: 0.5749537795219928
+valid_precision: 0.55954211469564
+train_recall: 0.579375
+valid_recall: 0.5627
+train_f1: 0.5738654471982572
+valid_f1: 0.5581198010403131
+
+2023-12-08 02:49:10,950 - modifiedNet_bs64_ep300_train - INFO - Validation loss decreased (1.188262 --> 1.188262).  Saving model ...
+2023-12-08 02:50:00,937 - modifiedNet_bs64_ep300_train - INFO - Epoch: 150
+train_loss: 1.13640676612854
+valid_loss: 1.1578915014266968
+train_accuracy: 0.5892
+valid_accuracy: 0.5812
+train_precision: 0.5851041477616605
+valid_precision: 0.5720844674920661
+train_recall: 0.591275
+valid_recall: 0.5787
+train_f1: 0.5854719363304115
+valid_f1: 0.5723752275452133
+
+2023-12-08 02:50:00,937 - modifiedNet_bs64_ep300_train - INFO - Validation loss decreased (1.157892 --> 1.157892).  Saving model ...
+2023-12-08 02:50:54,046 - modifiedNet_bs64_ep300_train - INFO - Epoch: 160
+train_loss: 1.1204012073516845
+valid_loss: 1.1443488681793212
+train_accuracy: 0.600925
+valid_accuracy: 0.5862
+train_precision: 0.5939134767274327
+valid_precision: 0.5819094487258152
+train_recall: 0.600875
+valid_recall: 0.5887
+train_f1: 0.5955513338191859
+valid_f1: 0.584068776673885
+
+2023-12-08 02:50:54,046 - modifiedNet_bs64_ep300_train - INFO - Validation loss decreased (1.144349 --> 1.144349).  Saving model ...
+2023-12-08 02:51:44,962 - modifiedNet_bs64_ep300_train - INFO - Epoch: 170
+train_loss: 1.0954734302520752
+valid_loss: 1.1298125663757324
+train_accuracy: 0.6086
+valid_accuracy: 0.5954
+train_precision: 0.5995248214655853
+valid_precision: 0.5885025766858625
+train_recall: 0.606125
+valid_recall: 0.5952
+train_f1: 0.6000918786679798
+valid_f1: 0.5892535651654782
+
+2023-12-08 02:51:44,962 - modifiedNet_bs64_ep300_train - INFO - Validation loss decreased (1.129813 --> 1.129813).  Saving model ...
+2023-12-08 02:52:36,063 - modifiedNet_bs64_ep300_train - INFO - Epoch: 180
+train_loss: 1.0838927081108094
+valid_loss: 1.1145469451904297
+train_accuracy: 0.611825
+valid_accuracy: 0.5991
+train_precision: 0.6087846963593321
+valid_precision: 0.5954939710837966
+train_recall: 0.613125
+valid_recall: 0.6005
+train_f1: 0.607844040442303
+valid_f1: 0.5957346462372605
+
+2023-12-08 02:52:36,063 - modifiedNet_bs64_ep300_train - INFO - Validation loss decreased (1.114547 --> 1.114547).  Saving model ...
+2023-12-08 02:53:26,861 - modifiedNet_bs64_ep300_train - INFO - Epoch: 190
+train_loss: 1.0638698239326476
+valid_loss: 1.0979097593307494
+train_accuracy: 0.6207
+valid_accuracy: 0.6056
+train_precision: 0.6127603306722751
+valid_precision: 0.5980734791989413
+train_recall: 0.619275
+valid_recall: 0.6041
+train_f1: 0.6133167217017219
+valid_f1: 0.5982933660536773
+
+2023-12-08 02:53:26,861 - modifiedNet_bs64_ep300_train - INFO - Validation loss decreased (1.097910 --> 1.097910).  Saving model ...
+2023-12-08 02:54:16,937 - modifiedNet_bs64_ep300_train - INFO - Epoch: 200
+train_loss: 1.0571776880264283
+valid_loss: 1.0872478221893311
+train_accuracy: 0.6221
+valid_accuracy: 0.6074
+train_precision: 0.618823102892191
+valid_precision: 0.6098792655495254
+train_recall: 0.6234
+valid_recall: 0.614
+train_f1: 0.6182315730573947
+valid_f1: 0.6090277805264541
+
+2023-12-08 02:54:16,938 - modifiedNet_bs64_ep300_train - INFO - Validation loss decreased (1.087248 --> 1.087248).  Saving model ...
+2023-12-08 02:55:09,391 - modifiedNet_bs64_ep300_train - INFO - Epoch: 210
+train_loss: 1.0324932881355287
+valid_loss: 1.0702037536621094
+train_accuracy: 0.631575
+valid_accuracy: 0.6212
+train_precision: 0.626061362102032
+valid_precision: 0.6127153189915946
+train_recall: 0.6329
+valid_recall: 0.6199
+train_f1: 0.6275393237820917
+valid_f1: 0.614749095474953
+
+2023-12-08 02:55:09,391 - modifiedNet_bs64_ep300_train - INFO - Validation loss decreased (1.070204 --> 1.070204).  Saving model ...
+2023-12-08 02:56:00,594 - modifiedNet_bs64_ep300_train - INFO - Epoch: 220
+train_loss: 1.0223845971107484
+valid_loss: 1.059862745475769
+train_accuracy: 0.638325
+valid_accuracy: 0.6299
+train_precision: 0.6306637798425121
+valid_precision: 0.6203263286558849
+train_recall: 0.6371
+valid_recall: 0.6268
+train_f1: 0.6322561854998513
+valid_f1: 0.6219588339401559
+
+2023-12-08 02:56:00,594 - modifiedNet_bs64_ep300_train - INFO - Validation loss decreased (1.059863 --> 1.059863).  Saving model ...
+2023-12-08 02:56:52,113 - modifiedNet_bs64_ep300_train - INFO - Epoch: 230
+train_loss: 1.014801222038269
+valid_loss: 1.0545995244026185
+train_accuracy: 0.6392
+valid_accuracy: 0.6278
+train_precision: 0.6334734910360127
+valid_precision: 0.6189911083486042
+train_recall: 0.6379
+valid_recall: 0.6238
+train_f1: 0.6339754494213431
+valid_f1: 0.6193555335593913
+
+2023-12-08 02:56:52,114 - modifiedNet_bs64_ep300_train - INFO - Validation loss decreased (1.054600 --> 1.054600).  Saving model ...
+2023-12-08 02:57:45,898 - modifiedNet_bs64_ep300_train - INFO - Epoch: 240
+train_loss: 0.9960458700180054
+valid_loss: 1.0341452714920043
+train_accuracy: 0.64765
+valid_accuracy: 0.6354
+train_precision: 0.6401584728744374
+valid_precision: 0.630968093038007
+train_recall: 0.6473
+valid_recall: 0.6373
+train_f1: 0.6421758177159451
+valid_f1: 0.6327333836540175
+
+2023-12-08 02:57:45,898 - modifiedNet_bs64_ep300_train - INFO - Validation loss decreased (1.034145 --> 1.034145).  Saving model ...
+2023-12-08 02:58:36,210 - modifiedNet_bs64_ep300_train - INFO - Epoch: 250
+train_loss: 0.9916670548439026
+valid_loss: 1.0327567014694214
+train_accuracy: 0.6466
+valid_accuracy: 0.6368
+train_precision: 0.6463878908812846
+valid_precision: 0.6333524206184743
+train_recall: 0.649225
+valid_recall: 0.636
+train_f1: 0.6469209501242318
+valid_f1: 0.6336793129294714
+
+2023-12-08 02:58:36,210 - modifiedNet_bs64_ep300_train - INFO - Validation loss decreased (1.032757 --> 1.032757).  Saving model ...
+2023-12-08 02:59:27,651 - modifiedNet_bs64_ep300_train - INFO - Epoch: 260
+train_loss: 0.9830009302139282
+valid_loss: 1.0182447781562805
+train_accuracy: 0.654625
+valid_accuracy: 0.6396
+train_precision: 0.6526081999253536
+valid_precision: 0.6372776875757182
+train_recall: 0.6559
+valid_recall: 0.6407
+train_f1: 0.6531624325436868
+valid_f1: 0.6381537493523796
+
+2023-12-08 02:59:27,651 - modifiedNet_bs64_ep300_train - INFO - Validation loss decreased (1.018245 --> 1.018245).  Saving model ...
+2023-12-08 03:00:18,291 - modifiedNet_bs64_ep300_train - INFO - Epoch: 270
+train_loss: 0.975948194694519
+valid_loss: 1.013132388496399
+train_accuracy: 0.6557
+valid_accuracy: 0.6379
+train_precision: 0.6518355352516831
+valid_precision: 0.6391627040178609
+train_recall: 0.656225
+valid_recall: 0.6428
+train_f1: 0.6528219052268381
+valid_f1: 0.6399564319481866
+
+2023-12-08 03:00:18,291 - modifiedNet_bs64_ep300_train - INFO - Validation loss decreased (1.013132 --> 1.013132).  Saving model ...
+2023-12-08 03:01:09,404 - modifiedNet_bs64_ep300_train - INFO - Epoch: 280
+train_loss: 0.9640174363136291
+valid_loss: 1.0089404651641847
+train_accuracy: 0.6606
+valid_accuracy: 0.6444
+train_precision: 0.653458654102623
+valid_precision: 0.6379162922787813
+train_recall: 0.6578
+valid_recall: 0.6414
+train_f1: 0.6546136310225407
+valid_f1: 0.6388620956875065
+
+2023-12-08 03:01:09,404 - modifiedNet_bs64_ep300_train - INFO - Validation loss decreased (1.008940 --> 1.008940).  Saving model ...
+2023-12-08 03:01:59,394 - modifiedNet_bs64_ep300_train - INFO - Epoch: 290
+train_loss: 0.9556516394615173
+valid_loss: 1.000167770576477
+train_accuracy: 0.66145
+valid_accuracy: 0.6481
+train_precision: 0.6560662279116607
+valid_precision: 0.6398203710456506
+train_recall: 0.66035
+valid_recall: 0.6446
+train_f1: 0.6575552567608113
+valid_f1: 0.6413493173582572
+
+2023-12-08 03:01:59,394 - modifiedNet_bs64_ep300_train - INFO - Validation loss decreased (1.000168 --> 1.000168).  Saving model ...
+2023-12-08 03:02:49,606 - modifiedNet_bs64_ep300_train - INFO - Epoch: 300
+train_loss: 0.9563661817550659
+valid_loss: 0.9936576836585999
+train_accuracy: 0.662075
+valid_accuracy: 0.6442
+train_precision: 0.6605909004027106
+valid_precision: 0.6458615102010422
+train_recall: 0.661325
+valid_recall: 0.648
+train_f1: 0.6597679997417562
+valid_f1: 0.6456625399772423
+
+2023-12-08 03:02:49,606 - modifiedNet_bs64_ep300_train - INFO - Validation loss decreased (0.993658 --> 0.993658).  Saving model ...
