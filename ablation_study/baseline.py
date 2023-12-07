@@ -2,8 +2,8 @@ from pytorch_cifar_classification.models.origin_net import Net
 from train import train
 from evaluate import evaluate
 
-batch_size = 10
-n_epochs = 10
+batch_size = 64
+n_epochs = 300
 loss_function_name = 'cross_entropy'
 optimizer_name = 'sgd'
 learning_rate = 0.0001

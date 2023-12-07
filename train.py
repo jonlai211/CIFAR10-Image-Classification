@@ -103,6 +103,7 @@ def train(model_name="originNet", model=Net(), batch_size=32, n_epochs=150, loss
             'valid_accuracy': valid_accuracy
         }
         logger.log_metrics(epoch, basic_metrics)
+        recorder.update_metrics(epoch, basic_metrics)
 
         # Save model if validation loss has decreased
         if valid_loss <= valid_loss_min:
