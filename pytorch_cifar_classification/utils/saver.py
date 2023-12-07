@@ -3,7 +3,7 @@ import os
 from datetime import datetime
 
 
-def save_model(model, model_name, directory='models'):
+def save_model(model, model_name, directory='../models'):
     if not os.path.exists(directory):
         os.makedirs(directory)
 

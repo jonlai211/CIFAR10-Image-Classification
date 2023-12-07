@@ -16,8 +16,8 @@ class DataLoaderManager:
         ])
 
         # Load train_data and test_data
-        train_data = datasets.CIFAR10('data', train=True, download=True, transform=transform)
-        test_data = datasets.CIFAR10('data', train=False, download=True, transform=transform)
+        train_data = datasets.CIFAR10('../data', train=True, download=True, transform=transform)
+        test_data = datasets.CIFAR10('../data', train=False, download=True, transform=transform)
 
         num_train = len(train_data)
         indices = list(range(num_train))

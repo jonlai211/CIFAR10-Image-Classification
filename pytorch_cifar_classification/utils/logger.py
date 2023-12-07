@@ -8,7 +8,7 @@ class Logger:
         self.logger = logging.getLogger(f'{model_name}_{mode}')
         self.logger.setLevel(level)
 
-        log_dir = 'logs'
+        log_dir = '../logs'
         if not os.path.exists(log_dir):
             os.makedirs(log_dir)
 

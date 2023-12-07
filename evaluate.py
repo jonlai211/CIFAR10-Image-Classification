@@ -10,15 +10,14 @@ from pytorch_cifar_classification.utils.predictor import make_predictions, map_c
 import torchvision.models as models
 
 
-def evaluate():
-    model_name = "ResNet18"
+def evaluate(model_name="originNet", model=Net(), batch_size=32):
 
     logger = Logger(model_name, mode='evaluate')
     logger.log_message("Start evaluation ...")
     recorder = Recorder(model_name, mode='evaluate')
 
     # Initialize DataLoaderManager for test data
-    batch_size = 32
+    # batch_size = 32
     number_of_workers = 4
     data_loader_manager = DataLoaderManager(batch_size, valid_size=0, number_of_workers=number_of_workers)
     test_loader = data_loader_manager.get_test_loader()
@@ -26,8 +25,8 @@ def evaluate():
     # Initialize the network and load saved model
     # model = Net()
     # model.load_state_dict(torch.load('models/originNet_2023-12-07_15-54-16.pt'))
-    model = models.resnet18(pretrained=True)
-    model.load_state_dict(torch.load('models/ResNet18_2023-12-07_20-51-09.pt'))
+    # model = models.resnet18(pretrained=True)
+    # model.load_state_dict(torch.load('models/ResNet18_2023-12-07_20-51-09.pt'))
 
     train_on_gpu = torch.cuda.is_available()
     if train_on_gpu:
@@ -68,5 +67,5 @@ def evaluate():
     recorder.save()
 
 
-if __name__ == "__main__":
-    evaluate()
+# if __name__ == "__main__":
+#     evaluate()

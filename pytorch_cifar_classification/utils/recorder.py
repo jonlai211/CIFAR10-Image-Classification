@@ -4,7 +4,7 @@ from datetime import datetime
 
 
 class Recorder:
-    def __init__(self, model_name, mode='train', output_dir='outputs'):
+    def __init__(self, model_name, mode='train', output_dir='../outputs'):
         self.model_name = model_name
         self.mode = mode
         self.output_dir = output_dir
