@@ -48,3 +48,18 @@ print_model_memory_info(GoogLeNet, input_size)
 print("MobileNetV2:")
 print_model_info(MobileNetV2, '')
 print_model_memory_info(MobileNetV2, input_size)
+
+print("lr=0.0001")
+print_model_info(modifiedNet, 'models/modifiedNet_bs64_ep300_2023-12-08_03-49-49.pt')
+
+print("lr=0.0005")
+print_model_info(modifiedNet, 'models/modifiedNet_bs64_ep300_2023-12-08_12-40-49.pt')
+
+print("lr=0.001")
+print_model_info(modifiedNet, 'models/modifiedNet_bs64_ep300_2023-12-08_10-19-07.pt')
+
+print("lr=0.005")
+print_model_info(modifiedNet, 'models/modifiedNet_bs64_ep300_2023-12-08_12-05-27.pt')
+
+print("lr=0.01")
+print_model_info(modifiedNet, 'models/modifiedNet_bs64_ep300_2023-12-08_11-31-39.pt')
