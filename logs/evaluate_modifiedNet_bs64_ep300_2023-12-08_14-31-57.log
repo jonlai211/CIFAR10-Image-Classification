@@ -1,0 +1,19 @@
+2023-12-08 14:31:57,327 - modifiedNet_bs64_ep300_evaluate - INFO - Start evaluation ...
+2023-12-08 14:32:04,140 - modifiedNet_bs64_ep300_evaluate - INFO - Epoch: 0
+test_loss: 1.414162368965149
+test_accuracy: 0.4811
+test_precision: 0.5055901364494194
+test_recall: 0.4872
+test_f1: 0.4867036598598972
+airplane: {'total': 1000, 'correct': 511, 'incorrect': 385, 'accuracy': 0.511}
+dog: {'total': 1000, 'correct': 466, 'incorrect': 631, 'accuracy': 0.466}
+automobile: {'total': 1000, 'correct': 787, 'incorrect': 597, 'accuracy': 0.787}
+horse: {'total': 1000, 'correct': 534, 'incorrect': 301, 'accuracy': 0.534}
+truck: {'total': 1000, 'correct': 383, 'incorrect': 198, 'accuracy': 0.383}
+bird: {'total': 1000, 'correct': 264, 'incorrect': 458, 'accuracy': 0.264}
+frog: {'total': 1000, 'correct': 683, 'incorrect': 569, 'accuracy': 0.683}
+cat: {'total': 1000, 'correct': 371, 'incorrect': 1230, 'accuracy': 0.371}
+ship: {'total': 1000, 'correct': 543, 'incorrect': 289, 'accuracy': 0.543}
+deer: {'total': 1000, 'correct': 322, 'incorrect': 478, 'accuracy': 0.322}
+overall_accuracy: 0.4864
+
